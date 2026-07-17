@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b26bdbe8-f5a3-482c-acce-6f9a8721a4d8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/app/zkpassport/zkpassport/MainApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/app/zkpassport/zkpassport/MainApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/app/zkpassport/zkpassport/mrzscan/CameraMLKitFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/app/zkpassport/zkpassport/mrzscan/CameraMLKitFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable/mrz_id_wireframe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable/mrz_passport_wireframe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(tabs)/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/debug-info.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ScanPassport/GetReadyToScan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScanPassport/GetReadyToScan.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ScanPassportView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScanPassportView.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/facematch/FaceMatch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/facematch/FaceMatch.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/TabBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/TabBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/TabBarVisibilityContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/TabBarVisibilityContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/i18n/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/locales/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/facematch/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/facematch/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/facematch/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/facematch/utils.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="33pN5DOymZkxk5wDQwWnab0ehq4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "ch/newUI",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b26bdbe8-f5a3-482c-acce-6f9a8721a4d8" name="Changes" comment="" />
+      <created>1760009868736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760009868736</updated>
+    </task>
+    <servers />
+  </component>
+</project>

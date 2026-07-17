@@ -1,0 +1,105 @@
+// General
+"Unable to read the SOD PKCS7 Certificate. %@" = "Não foi possível ler o certificado PKCS7 SOD. %@";
+"Unable to verify the SOD X509 certificate. %@" = "Não foi possível verificar o certificado X509 SOD. %@";
+"Unable to verify the SOD Datagroup hashes. %@" = "Não foi possível verificar os hashes dos grupos de dados do SOD. %@";
+"Unable to read ECDSA Public key %@!" = "Não foi possível ler a chave pública ECDSA %@!";
+"Unable to extract Signer data from PKCS7 %@!" = "Não foi possível extrair os dados do assinante do PKCS7 %@!";
+"Unable to Verify the SOD SignedAttributes %@!" = "Não foi possível verificar os atributos assinados do SOD %@!";
+"Unable to parse ASN1 %@!" = "Não foi possível analisar o ASN1 %@!";
+"Unable to decrypt RSA Signature %@!" = "Não foi possível descriptografar a assinatura RSA %@!";
+
+// Passive Authentication
+"Unable to parse the SOD Datagroup hashes. %@" = "Não foi possível analisar os hashes dos grupos de dados do SOD. %@";
+"DataGroup hash not present or didn't match %@!" = "Hash do grupo de dados ausente ou não corresponde %@!";
+"DataGroup SOD not present or not read %@!" = "Grupo de dados SOD ausente ou não lido %@!";
+
+// NFC Reading
+"Ready to Scan" = "Pronto para Escanear";
+"Hold your phone against your ID." = "Segure o celular contra seu documento.";
+"Move your phone slowly against your ID" = "Mova o celular lentamente contra seu documento";
+"Reading Common Data..." = "Lendo Dados Comuns...";
+"Reading MRZ..." = "Lendo MRZ...";
+"Reading Photo..." = "Lendo Foto...";
+"Reading Fingerprint..." = "Lendo Impressão Digital...";
+"Reading Iris..." = "Lendo Íris...";
+"Reading Portrait..." = "Lendo Retrato...";
+"Reading Signature..." = "Lendo Assinatura...";
+"Reading Security options..." = "Lendo opções de Segurança...";
+"Reading Public key..." = "Lendo Chave Pública...";
+"Reading Persons to notify..." = "Lendo Pessoas a notificar...";
+"Reading Security Data..." = "Lendo Dados de Segurança...";
+"Verifying..." = "Verificando...";
+"Hold still" = "Fique parado";
+"Authentication failed" = "Autenticação falhou";
+"PACE Authentication failed, switching to BAC" = "Autenticação PACE falhou, mudando para BAC";
+"Reading Photo details..." = "Lendo detalhes da Foto...";
+"ID read failed" = "Leitura do documento falhou";
+"ID scanned successfully" = "Documento escaneado com sucesso";
+"Scanning..." = "Escaneando...";
+"Reading..." = "Lendo...";
+"Saving ID..." = "Salvando documento...";
+"Please wait a moment while your ID gets encrypted and saved locally to your device." = "Por favor, aguarde um momento enquanto seu documento é criptografado e salvo localmente no seu dispositivo.";
+
+// Additional Error Messages
+"There was an issue reading the ID. Please try again." = "Houve um problema ao ler o documento. Por favor, tente novamente.";
+"Tag not valid." = "Tag não válida.";
+"More than 1 tags was found. Please present only 1 tag." = "Mais de uma tag foi encontrada. Por favor, apresente apenas uma tag.";
+"Connection error. Please try again." = "Erro de conexão. Por favor, tente novamente.";
+"MRZ Key not valid for this document." = "Chave MRZ não válida para este documento.";
+"Stay still, the modal will show again in 5s" = "Fique parado, a janela aparecerá novamente em 5s";
+"Error: %@ - (0x%@, 0x%@)" = "Erro: %@ - (0x%@, 0x%@)";
+"Sorry, there was a problem reading the ID. Please try again" = "Desculpe, houve um problema ao ler o documento. Por favor, tente novamente";
+
+// Passport Reader Errors
+"Invalid response" = "Resposta inválida";
+"Unexpected error" = "Erro inesperado";
+"NFC not supported" = "NFC não suportado";
+"No connected tag" = "Nenhuma tag conectada";
+"D087 malformed" = "D087 mal formado";
+"Invalid response checksum" = "Checksum da resposta inválido";
+"Missing mandatory fields" = "Campos obrigatórios ausentes";
+"Cannot decode ASN1 length" = "Não foi possível decodificar o comprimento ASN1";
+"Invalid ASN1 value" = "Valor ASN1 inválido";
+"Unable to protect APDU" = "Não foi possível proteger o APDU";
+"Unable to unprotect APDU" = "Não foi possível desproteger o APDU";
+"Unsupported data group" = "Grupo de dados não suportado";
+"Data group not read" = "Grupo de dados não lido";
+"Unknown tag" = "Tag desconhecida";
+"Unknown image format" = "Formato de imagem desconhecido";
+"Not implemented" = "Não implementado";
+"User canceled" = "Cancelado pelo usuário";
+"Invalid MRZ key" = "Chave MRZ inválida";
+"Invalid hash algorithm specified" = "Algoritmo de hash especificado inválido";
+"Unsupported cipher algorithm" = "Algoritmo de cifra não suportado";
+"Unsupported mapping type" = "Tipo de mapeamento não suportado";
+"PACE error (%@) - %@" = "Erro PACE (%@) - %@";
+"Chip authentication failed" = "Autenticação do chip falhou";
+"Invalid data passed - %@" = "Dados inválidos passados - %@";
+"Not yet supported - %@" = "Ainda não suportado - %@";
+"Unable to extract public key from SOD" = "Não foi possível extrair a chave pública do SOD";
+"Unable to extract public key from DG15" = "Não foi possível extrair a chave pública do DG15";
+
+// MRZ Scanner UI
+"Photo Page" = "Página da Foto";
+" of the Passport" = " do Passaporte";
+"Backside" = "Verso";
+" of National ID" = " do documento";
+" of Residence Permit" = " do documento";
+"Scanning in progress" = "Escaneamento em andamento";
+"Hold still" = "Fique parado";
+"Fit the ID " = "Ajuste o documento ";
+"in the frame" = "no enquadramento";
+"Cropped" = "Cortado";
+"Position MRZ in the frame" = "Posicione o código no enquadramento";
+"Move camera slightly down" = "Mova a câmera um pouco para baixo";
+"Move camera slightly up" = "Mova a câmera um pouco para cima";
+"Move camera slightly right" = "Mova a câmera um pouco para a direita";
+"Move camera slightly left" = "Mova a câmera um pouco para a esquerda";
+"Center the MRZ in the frame" = "Centralize o código no enquadramento";
+"Move slightly closer to the ID" = "Aproxime-se um pouco do documento";
+"Nearly there..." = "Quase lá...";
+"Scanning: %d%%" = "Escaneando: %d%%";
+"Connection lost. Keep your device still and close to the ID." = "Conexão perdida. Mantenha o dispositivo parado e próximo do documento.";
+"Reconnecting... (%d/%d)" = "Reconectando... (%d/%d)";
+"Reconnected! Continuing scan..." = "Reconectado! Continuando escaneamento..."; 
+

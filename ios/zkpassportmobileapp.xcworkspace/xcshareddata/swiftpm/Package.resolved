@@ -1,0 +1,77 @@
+{
+  "pins" : [
+    {
+      "identity" : "bigint",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/attaswift/BigInt.git",
+      "state" : {
+        "revision" : "793a7fac0bfc318e85994bf6900652e827aef33e",
+        "version" : "5.4.1"
+      }
+    },
+    {
+      "identity" : "libtesseract",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftyTesseract/libtesseract.git",
+      "state" : {
+        "revision" : "214a36e04d740795d7ba2f07c6108944d0136f8a",
+        "version" : "0.2.0"
+      }
+    },
+    {
+      "identity" : "mrzparser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/appintheair/MRZParser",
+      "state" : {
+        "revision" : "64b73fae8092b31d0a378f0d000c244470c7ac44",
+        "version" : "1.1.3"
+      }
+    },
+    {
+      "identity" : "openssl",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzyzanowskim/OpenSSL.git",
+      "state" : {
+        "revision" : "623c84da314e85363236507ca38a4bde65df21c3",
+        "version" : "3.3.3001"
+      }
+    },
+    {
+      "identity" : "swiftytesseract",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftyTesseract/SwiftyTesseract.git",
+      "state" : {
+        "revision" : "1393d15d0278673dd89f2ba21d3fb748f99e02ce",
+        "version" : "4.0.1"
+      }
+    },
+    {
+      "identity" : "swoir",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Swoir/Swoir",
+      "state" : {
+        "revision" : "cfbb305de070c92bd7b1bb84677da28b72fe2773",
+        "version" : "1.0.0-beta.22-1"
+      }
+    },
+    {
+      "identity" : "swoircore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Swoir/SwoirCore.git",
+      "state" : {
+        "revision" : "fb88807fd62dc9143dfac90e81442dd1e64e5a30",
+        "version" : "0.11.0"
+      }
+    },
+    {
+      "identity" : "swoirenberg",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Swoir/Swoirenberg.git",
+      "state" : {
+        "revision" : "6827c4265010e01b2ef489855ed379ad1cf07c9e",
+        "version" : "1.0.0-beta.22-1"
+      }
+    }
+  ],
+  "version" : 2
+}

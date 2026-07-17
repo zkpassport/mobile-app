@@ -1,0 +1,932 @@
+{
+  "continue": "Continue",
+  "close": "Close",
+  "returnToApp": "Return to app",
+  "returnToAppNamed": "Return to {{name}}",
+  "loading": "Loading...",
+  "slideToVerify": "Slide to verify",
+  "time": "Time",
+  "verificationPurpose": "Verification purpose",
+  "purpose": "Purpose",
+  "refreshApp": "Refresh App",
+  "chooseAnotherID": "Choose another ID",
+  "please": "Please",
+  "Back": "Back",
+  "scanYourID": "Scan your ID",
+  "developerOptions": "Developer Options",
+  "devModeDescription": "This lets you skip the passport scanning step and utilize simulated data.",
+  "enableDevMode": "Enable dev Mode",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "confirmDetails": "Confirm Details",
+  "ok": "OK",
+  "devModeEnabled": "Dev mode enabled",
+  "mockPassportsLoadedMessage": "Mock passports loaded successfully",
+  "tryAgain": "Try again",
+  "go_back": "Go back",
+  "dismiss": "Dismiss",
+  "restartApp": "Restart App",
+  "somethingWentWrong": "Something went wrong",
+  "sendReport": "Send Report",
+  "unexpectedErrorDescription": "An unexpected error occurred. Please try again later. Help us fix this issue by sending a report.",
+  "expired": "Expired",
+  "date": "Date",
+  "id": "ID",
+  "country": "Country",
+  "success": "Success",
+  "home": {
+    "loadingPassport": "Loading ID...",
+    "noID": "No ID Found",
+    "scanIDFirst": "Please scan your ID first to continue."
+  },
+  "tabs": {
+    "ids": "IDs",
+    "verify": "Verify",
+    "history": "History"
+  },
+  "homeView": {
+    "tagline": "Verify your identity privately",
+    "whyScanLink": "Why scan my ID?",
+    "scanButton": "Scan your ID",
+    "loadIDs": "Load IDs",
+    "errorReportingConsent": {
+      "title": "Help improve ZKPassport",
+      "description": "Help us improve the app by sharing anonymous crash reports.",
+      "disclaimer": "These reports never include your identity or any personal details, only technical metadata.",
+      "sendReports": "Send reports",
+      "notNow": "Not now"
+    }
+  },
+  "nfcReading": {
+    "readyToScan": "Ready to scan",
+    "holdPhone": "Hold your phone against your ID.",
+    "readingCommon": "Reading Common Data...",
+    "readingMRZ": "Reading MRZ...",
+    "readingPhoto": "Reading Photo...",
+    "readingPortrait": "Reading Portrait...",
+    "readingSignature": "Reading Signature...",
+    "readingSecurityOptions": "Reading Security options...",
+    "readingPublicKey": "Reading Public key...",
+    "readingSecurityData": "Reading Security Data...",
+    "authenticating": "Hold still",
+    "authenticationFailed": "Authentication failed",
+    "paceFailed": "PACE Authentication failed, switching to BAC",
+    "readingPhotoDetails": "Reading Photo details...",
+    "passportReadFailed": "ID read failed",
+    "passportScanned": "ID scanned successfully",
+    "scanning": "Scanning...",
+    "reading": "Reading...",
+    "savingPassportDescription": "Please wait a moment while your ID gets encrypted and saved locally to your device.",
+    "savingID": "Saving ID",
+    "connectionLost": {
+      "title": "Connection lost",
+      "retag1": "Place your phone back on your ID to continue",
+      "retag2": "Keep your phone steady on the ID",
+      "retag3": "Last attempt - hold phone firmly on ID",
+      "maxRetries": "Could not reconnect. Please try again."
+    },
+    "tagReconnected": "Reconnected! Continuing scan...",
+    "tagReconnectedTitle": "Reconnected",
+    "wrongTagRetag": "Wrong tag detected. Place your phone on your ID."
+  },
+  "IDSelectedCard": {
+    "title": "ID Selected",
+    "infoText": "Your ID info is stored locally on your phone."
+  },
+  "AccessRequestHeader": {
+    "trustedDomain": "Trusted domain",
+    "devMode": "Untrusted domain, continue at your own risk"
+  },
+  "LoadingOverlay": {
+    "verification": "<bold>Verification</bold> in progress",
+    "pleaseKeepPhoneAwake": "Please keep your phone screen on during this process"
+  },
+  "onboardingModal": {
+    "startScan": "Start scan",
+    "next": "Next",
+    "agreePrefix": "By continuing you accept ZKPassport ",
+    "termsLink": "Terms of Service",
+    "and": " & ",
+    "privacyLink": "Privacy Policy",
+    "title": {
+      "0": "Scan once, verify faster",
+      "1": "Privacy-first by default",
+      "2": "What is shared"
+    },
+    "items": {
+      "0": {
+        "title1": "One-time ID scan",
+        "description1": "Scan a government-issued ID to privately store your identity.",
+        "title2": "Reuse without rescanning",
+        "description2": "Verify in seconds without scanning your ID each time."
+      },
+      "1": {
+        "title1": "Stored on your device",
+        "description1": "Your ID is scanned and stored locally on your phone.",
+        "title2": "Not linkable across websites",
+        "description2": "Websites cannot correlate or track you between different services."
+      },
+      "2": {
+        "title1": "Reveal only what's needed",
+        "description1": "The website does not learn who you are, only whether you meet their requirements.",
+        "title2": "On-device verification",
+        "description2": "The checks run on your device, not on a central server."
+      }
+    }
+  },
+  "PrivacySummary": {
+    "title": "Privacy Summary",
+    "standard": {
+      "title": "Standard Privacy Mode",
+      "description": "This mode keeps your identity private from the website, but the identifier could be recreated by someone who already has your ID data, such as the issuing authority. It offers strong privacy, but not the highest level.",
+      "features": {
+        "notVisibleToWebsite": "Not visible to the website or ZKPassport",
+        "notLinkableAcrossWebsites": "Not linkable across websites",
+        "couldBeRecreated": "Could be recreated by someone with your ID data",
+        "lowerPrivacy": "Lower privacy compared to Maximum Privacy mode",
+        "descriptions": {
+          "notVisibleToWebsite": "The website does not learn who you are, only whether you meet their requirements.",
+          "notLinkableAcrossWebsites": "Websites cannot correlate or track you between different services.",
+          "couldBeRecreated": "The issuing authority or anyone with your ID information could, in theory, compute the same identifier and recognise you.",
+          "lowerPrivacy": "It protects you from websites, but not necessarily from whoever issued your ID."
+        }
+      }
+    },
+    "full": {
+      "title": "Maximum Privacy Mode",
+      "description": "This mode gives you the strongest privacy. The identifier used cannot be recreated or linked back to you by anyone, not the website, not ZKPassport, and not the issuing authority.",
+      "features": {
+        "notLinkableByAnyone": "Not linkable by anyone",
+        "notLinkableAcrossWebsites": "Not linkable across websites",
+        "cannotBeRecreated": "Cannot be recreated from ID data",
+        "yourIdentityRemainsFullyPrivate": "Your identity remains fully private",
+        "descriptions": {
+          "notLinkableByAnyone": "Nobody, not the website, not ZKPassport, not the issuing government can link this proof back to you.",
+          "notLinkableAcrossWebsites": "Neither the website, ZKPassport, or the issuing government can link this proof back to you.",
+          "cannotBeRecreated": "Even someone who already has your ID details cannot generate this identifier.",
+          "yourIdentityRemainsFullyPrivate": "Only the fact that you meet the website's requirement is revealed. Nothing else."
+        }
+      }
+    }
+  },
+  "UnableToContinue": {
+    "title": "Unable to continue",
+    "description": "You cannot continue because you do not meet the requirements. Your data will remain on your phone and will not be shared."
+  },
+  "VerificationCriteriaList": {
+    "title": "Requested Information",
+    "subtitle": "This website asked to verify the following information:"
+  },
+  "accessRequest": {
+    "privacyLinkText": "Read more on privacy here",
+    "title": "A website is requesting access to your information",
+    "verifying": "Verifying...",
+    "keepPhoneAwake": "Please keep your phone screen on during this process",
+    "done": "Done!",
+    "doneDescription": "You can now return to the website.",
+    "wouldLikeToProve": "Requested information",
+    "purpose": "Purpose: {{purpose}}",
+    "domainNotVerified": "We are not able to verify the domain of the website. You may be encountering a connection issue or the website is not trustworthy.",
+    "domainNotVerifiedTitle": "Domain not verified",
+    "domainVerifyingTitle": "Verifying domain...",
+    "domainVerifying": "We're currently verifying the domain of the website is the correct one. Please wait a few seconds.",
+    "purposeTitle": "Purpose",
+    "purposeTooltip": "Why the service needs your information and how it will be used.",
+    "usingID": "Using ID",
+    "selectID": "Select ID",
+    "criteriaNotMet": "Your ID does not meet this requirement",
+    "criteriaNotMetTitle": "You don't meet the criteria",
+    "criteriaNotMetDescription": "Some of the criteria are not met by your ID",
+    "verifyingSignature": "Verifying signature ({{index}}/2)...",
+    "verifyingIntegrity": "Verifying ID data...",
+    "verifyingBind": "Linking data...",
+    "verifyingAge": "Verifying age...",
+    "verifyingBirthdate": "Verifying birthdate...",
+    "verifyingDisclose": "Preparing disclosure...",
+    "verifyingExclusionIssuingCountry": "Verifying exclusion of issuing country...",
+    "verifyingExclusionNationality": "Verifying exclusion of nationality...",
+    "verifyingInclusionIssuingCountry": "Verifying inclusion of issuing country...",
+    "verifyingInclusionNationality": "Verifying inclusion of nationality...",
+    "sendingProof": "Sending results...",
+    "compressingProof": "Compressing proof...",
+    "verifyingExclusionSanctions": "Verifying exclusion from sanctions lists...",
+    "verifyingFaceMatch": "Verifying FaceMatch...",
+    "preparingOuterProof": "Preparing the final step...",
+    "unverified": "This website is not verified"
+  },
+  "accessItemLabel": {
+    "validId": "You own a valid ID",
+    "result": "Result",
+    "criteria": "Criteria",
+    "yes": "Yes",
+    "no": "You <bold>do not</bold> meet the website's criteria",
+    "passed": "Passed",
+    "failed": "Failed",
+    "birthdate": {
+      "eq": "Were you born on {{date}}?",
+      "disclose": "What is your date of birth?",
+      "range": "Were you born between {{min}} and {{max}}?",
+      "gt": "Were you born after {{date}}?",
+      "gte": "Were you born on or after {{date}}?",
+      "lt": "Were you born before {{date}}?",
+      "lte": "Were you born on or before {{date}}?"
+    },
+    "gender": {
+      "eq": "Are you {{gender}}?",
+      "disclose": "What is your gender?"
+    },
+    "issuing_country": {
+      "eq": "Is your ID issued by {{country}}?",
+      "disclose": "What is the country that issued your ID?",
+      "in": "Was your ID issued by one of {{countries}} countries?",
+      "out": "Was your ID not issued by one of the following countries?"
+    },
+    "nationality": {
+      "eq": "Is your nationality {{country}}?",
+      "disclose": "What is your nationality?",
+      "in": "Are you a citizen of one of the following countries?",
+      "out": "Are you not a citizen of one of the following countries?"
+    },
+    "expiry_date": {
+      "eq": "Is your ID valid until {{date}}?",
+      "disclose": "What is the expiry date of your ID?",
+      "range": "Is your ID valid between {{min}} and {{max}}?",
+      "gt": "Is your ID valid after {{date}}?",
+      "gte": "Is your ID valid on or after {{date}}?",
+      "lt": "Is your ID valid until {{date}}?",
+      "lte": "Is your ID valid until at least {{date}}?"
+    },
+    "age": {
+      "eq": "Are you {{age}} years old?",
+      "range": "Are you between {{min}} and {{max}} years old?",
+      "gt": "Are you older than {{age}} years old?",
+      "gte": "Are you {{age}} years old or older?",
+      "lt": "Are you younger than {{age}} years old?",
+      "lte": "Are you {{age}} years old or younger?",
+      "disclose": "What is your exact age?"
+    },
+    "document_number": {
+      "eq": "Is your document number {{number}}?",
+      "disclose": "What is your document number?"
+    },
+    "document_type": {
+      "eq": "Is your document type a {{type}}?",
+      "disclose": "What type of ID do you have?"
+    },
+    "fullname": {
+      "eq": "Is your full name {{name}}?",
+      "disclose": "What is your full name?"
+    },
+    "firstname": {
+      "eq": "Is your first name {{name}}?",
+      "disclose": "What is your first name?"
+    },
+    "lastname": {
+      "eq": "Is your last name {{name}}?",
+      "disclose": "What is your last name?"
+    },
+    "bind": {
+      "user_address": "Bind your wallet to this verification",
+      "chain": "Attach to a specific blockchain",
+      "custom_data": "Attach data to this verification"
+    },
+    "sanctions": {
+      "question": "Are you listed on any sanctions lists from the selected countries or authorities?"
+    },
+    "facematch": "Are you the person on your ID?"
+  },
+  "accessItemDescription": {
+    "validId": "Nothing else will be revealed",
+    "validId_past": "Nothing else was revealed",
+    "yes": "Yes",
+    "birthdate": {
+      "eq": "Your date of birth will be revealed.",
+      "eq_past": "Your date of birth was revealed",
+      "disclose": "Your date of birth will be revealed.",
+      "disclose_past": "Your date of birth was revealed",
+      "range": "Only <bold>Yes</bold> will be revealed, but not your actual date of birth.",
+      "range_past": "Only <bold>Yes</bold> was revealed, but not your actual date of birth",
+      "gt": "Only <bold>Yes</bold> will be revealed, but not your actual date of birth.",
+      "gt_past": "Only <bold>Yes</bold> was revealed, but not your actual date of birth",
+      "gte": "Only <bold>Yes</bold> will be revealed, but not your actual date of birth.",
+      "gte_past": "Only <bold>Yes</bold> was revealed, but not your actual date of birth",
+      "lt": "Only <bold>Yes</bold> will be revealed, but not your actual date of birth.",
+      "lt_past": "Only <bold>Yes</bold> was revealed, but not your actual date of birth",
+      "lte": "Only <bold>Yes</bold> will be revealed, but not your actual date of birth.",
+      "lte_past": "Only <bold>Yes</bold> was revealed, but not your actual date of birth"
+    },
+    "gender": {
+      "eq": "Your gender will be revealed.",
+      "eq_past": "Your gender was revealed",
+      "disclose": "Your gender will be revealed.",
+      "disclose_past": "Your gender was revealed"
+    },
+    "issuing_country": {
+      "eq": "The country that issued your ID will be revealed.",
+      "eq_past": "The country that issued your ID was revealed",
+      "disclose": "The country that issued your ID will be revealed.",
+      "disclose_past": "The country that issued your ID was revealed",
+      "in": "Only <bold>Yes</bold> will be revealed, but not your actual issuing country.\n\n<bold>List of countries:</bold>\n{{countries}}",
+      "in_past": "Only <bold>Yes</bold> was revealed, but not your actual issuing country\n\n<bold>List of countries:</bold>\n{{countries}}",
+      "out": "Only <bold>Yes</bold> will be revealed, but not your actual issuing country.\n\n<bold>List of countries:</bold>\n{{countries}}",
+      "out_past": "Only <bold>Yes</bold> was revealed, but not your actual issuing country\n\n<bold>List of countries:</bold>\n{{countries}}"
+    },
+    "nationality": {
+      "eq": "Your nationality will be revealed.",
+      "eq_past": "Your nationality was revealed",
+      "disclose": "Your nationality will be revealed.",
+      "disclose_past": "Your nationality was revealed",
+      "in": "Only <bold>Yes</bold> will be revealed, but not your actual nationality.\n\n<bold>List of countries:</bold>\n{{countries}}",
+      "in_past": "Only <bold>Yes</bold> was revealed, but not your actual nationality\n\n<bold>List of countries:</bold>\n{{countries}}",
+      "out": "Only <bold>Yes</bold> will be revealed, but not your actual nationality.\n\n<bold>List of countries:</bold>\n{{countries}}",
+      "out_past": "Only <bold>Yes</bold> was revealed, but not your actual nationality\n\n<bold>List of countries:</bold>\n{{countries}}"
+    },
+    "expiry_date": {
+      "eq": "Your ID's expiry date will be revealed.",
+      "eq_past": "Your ID's expiry date was revealed",
+      "disclose": "Your ID's expiry date will be revealed.",
+      "disclose_past": "Your ID's expiry date was revealed",
+      "range": "Only <bold>Yes</bold> will be revealed, but not your actual expiry date.",
+      "range_past": "Only <bold>Yes</bold> was revealed, but not your actual expiry date",
+      "gt": "Only <bold>Yes</bold> will be revealed, but not your actual expiry date.",
+      "gt_past": "Only <bold>Yes</bold> was revealed, but not your actual expiry date",
+      "gte": "Only <bold>Yes</bold> will be revealed, but not your actual expiry date.",
+      "gte_past": "Only <bold>Yes</bold> was revealed, but not your actual expiry date",
+      "lt": "Only <bold>Yes</bold> will be revealed, but not your actual expiry date.",
+      "lt_past": "Only <bold>Yes</bold> was revealed, but not your actual expiry date",
+      "lte": "Only <bold>Yes</bold> will be revealed, but not your actual expiry date.",
+      "lte_past": "Only <bold>Yes</bold> was revealed, but not your actual expiry date"
+    },
+    "age": {
+      "eq": "Your exact age will be revealed.",
+      "eq_past": "Your exact age was revealed",
+      "range": "Only <bold>Yes</bold> will be revealed, but not your actual age.",
+      "range_past": "Only <bold>Yes</bold> was revealed, but not your actual age",
+      "gt": "Only <bold>Yes</bold> will be revealed, but not your actual age.",
+      "gt_past": "Only <bold>Yes</bold> was revealed, but not your actual age",
+      "gte": "Only <bold>Yes</bold> will be revealed, but not your actual age.",
+      "gte_past": "Only <bold>Yes</bold> was revealed, but not your actual age",
+      "lt": "Only <bold>Yes</bold> will be revealed, but not your actual age.",
+      "lt_past": "Only <bold>Yes</bold> was revealed, but not your actual age",
+      "lte": "Only <bold>Yes</bold> will be revealed, but not your actual age.",
+      "lte_past": "Only <bold>Yes</bold> was revealed, but not your actual age",
+      "disclose": "Your exact age will be revealed.",
+      "disclose_past": "Your exact age was revealed"
+    },
+    "document_number": {
+      "eq": "Your document number will be revealed.",
+      "eq_past": "Your document number was revealed",
+      "disclose": "Your document number will be revealed.",
+      "disclose_past": "Your document number was revealed"
+    },
+    "document_type": {
+      "eq": "Your document type will be revealed (Passport, National ID, or Residence Permit).",
+      "eq_past": "Your document type was revealed (Passport, National ID, or Residence Permit).",
+      "disclose": "Your document type will be revealed (Passport, National ID, or Residence Permit).",
+      "disclose_past": "Your document type was revealed (Passport, National ID, or Residence Permit)."
+    },
+    "fullname": {
+      "eq": "Your full official name will be revealed.",
+      "eq_past": "Your full official name was revealed",
+      "disclose": "Your full official name will be revealed.",
+      "disclose_past": "Your full official name was revealed"
+    },
+    "firstname": {
+      "eq": "Your first name will be revealed.",
+      "eq_past": "Your first name was revealed",
+      "disclose": "Only your first name will be revealed (not including your middle name or secondary given names).",
+      "disclose_past": "Only your first name was revealed (not including your middle name or secondary given names)"
+    },
+    "lastname": {
+      "eq": "Your last name will be revealed.",
+      "eq_past": "Your last name was revealed",
+      "disclose": "Only your last name will be revealed (not including your first or middle names).",
+      "disclose_past": "Only your last name was revealed (not including your first or middle names)"
+    },
+    "bind": {
+      "user_address": "Your wallet address will be linked to this proof.",
+      "user_address_past": "Your wallet address was linked to this proof.",
+      "chain": "The verification will be tied to this blockchain.",
+      "chain_past": "The verification was tied to this blockchain.",
+      "custom_data": "The verification will include the following data: {{data}}.",
+      "custom_data_past": "The verification included the following data: {{data}}."
+    },
+    "sanctions": {
+      "bool": "Only <bold>Yes</bold> will be revealed, no personal or list-matching data is shared.",
+      "bool_past": "Only <bold>Yes</bold> was revealed, no personal or list-matching data was shared.",
+      "all": "Only <bold>Yes</bold> will be revealed, no personal or list-matching data is shared.\n\n<bold>Checking privately</bold> against all available sanctions lists via OpenSanctions API which covers US, EU, UK, Swiss and other sanctions lists",
+      "all_past": "Only <bold>Yes</bold> was revealed, no personal or list-matching data was shared.\n\n<bold>Checking privately</bold> against all available sanctions lists via OpenSanctions API which covers US, EU, UK, Swiss and other sanctions lists",
+      "countries": "Only <bold>Yes</bold> will be revealed, no personal or list-matching data is shared.\n\n<bold>Checking privately</bold> against sanctions lists from the following countries: {{countries}}",
+      "countries_past": "Only <bold>Yes</bold> was revealed, no personal or list-matching data was shared.\n\n<bold>Checking privately</bold> against sanctions lists from the following countries: {{countries}}"
+    },
+    "facematch": "Private FaceMatch performs a liveness check and compares your face against the photo on your ID.",
+    "facematch_past": "Private FaceMatch performed a liveness check and compared your face against the photo on your ID."
+  },
+  "eventPage": {
+    "title": {
+      "mrz": "Scan successful",
+      "nfc": "Chip scan successful",
+      "nfcFailed": "Chip scan failed",
+      "notSupported": "ID not supported",
+      "expiredId": "Your ID has expired",
+      "somethingWrong": "Something went wrong",
+      "lostConnection": "Internet connection lost",
+      "deleteId": "The selected ID was deleted successfully",
+      "deleteWrong": "Oops! Something went wrong, try again later",
+      "verified": "You're verified!",
+      "notSuccessful": "Verification not successful",
+      "chipNotDetected": "Chip not detectable",
+      "docNotSupported": "Document not supported"
+    },
+    "description": {
+      "success": "We've read your ID details correctly. You can now continue with the verification.",
+      "nfcFailed": "We detected the chip in your document, but couldn't complete the scan. The chip may be damaged or not responding correctly.",
+      "notSupported": "This document isn't supported yet due to missing information from the issuing authority. We've saved it in the app anyway, keep an eye on the app for updates.",
+      "notSupportedIntent": "It's not possible to generate a verification proof because the issuing authority's certificate isn't currently supported.",
+      "expiredId": "Your ID has expired, so you can't generate a verification. Please scan an up-to-date ID to continue with the verification process.",
+      "somethingWrong": "The app couldn't continue because the connection was interrupted.",
+      "lostConnection": "Your internet connection was interrupted.",
+      "deleteId": "The selected ID was deleted successfully",
+      "deleteWrong": "Oops! Something went wrong, try again later",
+      "verified": "Your information met all the required criteria. The verification was successful.",
+      "notSuccessful": "You didn't meet the verification requirements, so you won't be able to proceed. This may limit access to certain content, features, or services.",
+      "chipNotDetected": "We couldn't detect the chip in your document. It may be damaged or unreadable.",
+      "docNotSupported": "This ID doesn't contain an NFC chip, so it can't be used with this app."
+    },
+    "secondaryText": {
+      "somethingWrong": "Please <bold>refresh the app</bold> to continue.",
+      "lostConnection": "Please <bold>check your connection</bold> and try again.",
+      "useAnotherID": "Please use another ID if available",
+      "contactServiceProvider": "If you believe this is an error, please contact the service provider for support."
+    }
+  },
+  "WhyScanId": {
+    "title": "Why scan your ID?",
+    "description": "Scanning your ID lets ZKPassport confirm it's genuine, so you can prove facts about yourself without ever exposing personal details.",
+    "subtitle": "Here's how it works:",
+    "steps": {
+      "1": {
+        "text": "Your ID data stays encrypted on your device"
+      },
+      "2": {
+        "text": "You use Face ID/Touch ID to protect it"
+      },
+      "3": {
+        "text": "You can prove facts about yourself (like being 18+), without showing your ID details"
+      }
+    },
+    "infoFrame": {
+      "text": "You'll only need to do this once <bold>and your data will stay secure and private.</bold>"
+    }
+  },
+  "facematch": {
+    "title": "Keep your face in the frame",
+    "titleNoFaceDetected": "Position your face in the frame",
+    "nofaceDetected": "First, position your face in the camera. Then move your head in a circle to show all the angles of your face.",
+    "instruction_center": "Look straight ahead at the camera",
+    "hold_still": "Hold still",
+    "look_left": "Move your head slowly <bold>to the left</bold>",
+    "look_right": "Move your head slowly <bold>to the right</bold>",
+    "look_up": "Move your head slowly <bold>upward</bold>",
+    "look_down": "Move your head slowly <bold>downward</bold>",
+    "look_less_left": "Move less to the left",
+    "look_less_right": "Move less to the right",
+    "look_less_up": "Move less upward",
+    "look_less_down": "Move less downward",
+    "look_further_left": "Move further to the left",
+    "look_further_right": "Move further to the right",
+    "look_further_up": "Move further upward",
+    "look_further_down": "Move further downward",
+    "permissionText": "We need camera permission to verify your face",
+    "grantPermission": "Grant Permission",
+    "faceMatchText": "<bold>Private FaceMatch</bold> verification",
+    "successfullyCompleted": "<bold>Private FaceMatch</bold> completed successfully",
+    "facialDataSecure": "Your facial data stays securely on your device.",
+    "generatingAttestation": "Processing...",
+    "debug": {
+      "leftEye": "L Eye",
+      "rightEye": "R Eye",
+      "nose": "Nose",
+      "leftMouth": "L Mouth",
+      "rightMouth": "R Mouth",
+      "modelInput": "Model Input",
+      "embedding": "Embedding:"
+    },
+    "timeout": {
+      "title": "Private FaceMatch timed out",
+      "description": "We couldn't confirm that your face matches the ID used for this verification.\n\nPlease try again and <bold>make sure the person scanning is the same shown on the ID</bold>."
+    }
+  },
+  "history": {
+    "title": "Verification History",
+    "viewDetails": "View details",
+    "idSelected": "ID Selected",
+    "unknown": "Unknown",
+    "delete": "Delete verification",
+    "informationShared": "Information Shared",
+    "noVerificationTitle": "No verifications yet",
+    "noVerificationDescription": "Next time you go through a verification, it will appear here in your history.",
+    "today": "Today",
+    "yesterday": "Yesterday"
+  },
+  "modals": {
+    "checkPassport": {
+      "title": {
+        "passport": "Check your Passport",
+        "idCard": "Check your National ID",
+        "residencePermit": "Check your Residence Permit"
+      },
+      "description": {
+        "passport": "Make sure your Passport has the <bold>NFC symbol</bold>, typically <bold>on the front cover</bold>.",
+        "idCard": "Make sure your ID has the <bold>NFC symbol</bold>, usually on the <bold>front or back of the card</bold>.",
+        "residencePermit": "Make sure your Residence Permit has the <bold>NFC symbol</bold>, usually on the <bold>front or back of the card</bold>."
+      },
+      "yesIHaveIt": "Yes, I have it",
+      "noIDontHaveIt": "No, I don't have it"
+    },
+    "deleteID": {
+      "title": "Delete ID?",
+      "description": "Deleting this ID will remove it from your device along with all associated verifications. This action can't be undone.",
+      "deleteButton": "Delete ID",
+      "cancelButton": "Cancel",
+      "successDescription": "The selected ID was deleted successfully.",
+      "errorDescription": "Oops! Something went wrong, try again later"
+    },
+    "historyFilter": {
+      "title": "Filters",
+      "resetAll": "Reset All",
+      "selectedID": "Selected ID",
+      "noIDsFound": "No IDs found",
+      "cancel": "Cancel",
+      "apply_zero": "Apply",
+      "apply_other": "Apply ({{count}})"
+    },
+    "incompatibleSdk": {
+      "title": "Incompatible SDK Version",
+      "description": "The service you are trying to connect to is using SDK version {{sdkVersion}} while this app supports version {{minVersion}} to {{maxVersion}}. The service needs to update to a supported version.",
+      "disclaimer": "You can contact the service's support team and ask them to upgrade their integration"
+    },
+    "certificateMissing": {
+      "title": "Certificate Missing",
+      "description": "Our certificate registry does not currently support this ID. You can help us add support for this ID by sending a report. No sensitive data will be sent.",
+      "sendReport": "Send Report",
+      "notNow": "Not now"
+    },
+    "unsupportedId": {
+      "title": "Unsupported ID",
+      "description": "Unfortunately your ID uses a signing algorithm that we don't support yet."
+    },
+    "errorReport": {
+      "title": "Error Report Has Been Sent",
+      "description": "Thank you for helping us improve the app. We'll use this information to fix the issue.",
+      "dismiss": "Dismiss"
+    }
+  },
+  "passportView": {
+    "yourIDs": "Your IDs",
+    "addID": "Add ID",
+    "hideDetails": "Hide details",
+    "showDetails": "Show details",
+    "options": "Options",
+    "privacyWarning": {
+      "title": "Privacy Warning",
+      "description": "A screenshot was detected. If someone asked you to send a photo of your ID details, do not do it.",
+      "understood": "Understood"
+    },
+    "documentType": {
+      "passport": "Passport",
+      "idCard": "National ID",
+      "residencePermit": "Residence Permit"
+    },
+    "idIsGenuine": "ID is Genuine",
+    "name": "Name",
+    "nationality": "Nationality",
+    "dateOfBirth": "Date of Birth",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "passportNumber": "ID Number",
+    "passportExpiry": "ID Expiry Date",
+    "unsupportedMessage": "This ID can't be used for verification yet because the country's certificate is not available.",
+    "expiredMessage": "This ID is expired and can't be used for verification."
+  },
+  "scanning": {
+    "back": "Back",
+    "chooseIDType": {
+      "title": "Choose an ID type",
+      "passport": {
+        "title": "Passport",
+        "description": "Government-issued booklet for international identity proof"
+      },
+      "idCard": {
+        "title": "National ID",
+        "description": "Card used for national ID checks or specific regions"
+      },
+      "residencePermit": {
+        "title": "Residence Permit",
+        "description": "Document/card that verifies a foreign national's residence"
+      }
+    },
+    "prepareID": {
+      "title": "Scan the chip",
+      "passport": "Open your <bold>passport and lay it flat</bold> on a surface. When you're ready press <em>[Start scan]</em> and slowly move your phone over your passport as shown above.",
+      "idCard": "Lay your <bold>ID face up</bold> on a flat surface. When you're ready press <em>[Start scan]</em> and slowly move your phone over your ID as shown above.",
+      "residencePermit": "Lay your <bold>ID face up</bold> on a flat surface. When you're ready press <em>[Start scan]</em> and slowly move your phone over your ID as shown above.",
+      "startScan": "Start scan"
+    },
+    "getReadyToScan": {
+      "title": "Get ready to scan",
+      "passport": {
+        "name": "Passport",
+        "description": "Open your Passport to the photo page and place it face up on a flat surface."
+      },
+      "idCard": {
+        "name": "National ID",
+        "description": "Place the back of your National ID on a flat surface with good lighting."
+      },
+      "residencePermit": {
+        "name": "Residence Permit",
+        "description": "Place the back of your Residence Permit on a flat surface with good lighting."
+      },
+      "steps": {
+        "nfc": " with NFC",
+        "scan": "Scan with camera"
+      },
+      "flipID": "Flip ID to the backside",
+      "startScan": "Start scan",
+      "enterManually": "Enter details manually"
+    },
+    "manualMRZEntry": "Manual MRZ Entry",
+    "areYourDetailsCorrect": "Are your details correct?",
+    "editMRZSubtitle": "Review if your details are correct. To edit them simply click on the field.",
+    "documentNumber": "Document Number",
+    "dateOfBirth": "Date of Birth",
+    "dateOfExpiry": "Date of Expiry",
+    "confirmDetails": "Confirm Details",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "errors": {
+      "fieldRequired": "This field is required",
+      "documentNumberLength": "Document number must be 9-12 characters",
+      "alphanumericOnly": "Only letters and numbers allowed",
+      "numbersOnly": "Only numbers allowed",
+      "dobFuture": "Date of birth cannot be in the future",
+      "expiryPast": "Expiry date must be in the future"
+    },
+    "nfcRetry": {
+      "attempt1": {
+        "title": "Incomplete Scan",
+        "description": "We didn't get all the details yet. Keep your phone steady after the vibration to finish the scan."
+      },
+      "attempt2": {
+        "title": "Still couldn't complete scan",
+        "description": "<bold>Try removing your phone case</bold> and keep the phone steady once you feel a vibration."
+      },
+      "attempt3": {
+        "title": "Still couldn't complete scan",
+        "description": "Make sure your passport is valid and the NFC chip is undamaged."
+      }
+    },
+    "nfcTimeout": {
+      "attempt1": {
+        "title": "Couldn't detect the chip",
+        "description": "<bold>Try removing your phone case</bold>, and stop moving your phone once you feel a vibration."
+      },
+      "attempt2": {
+        "title": "Still couldn't detect the chip",
+        "description": "Make sure your passport is valid and the NFC chip is undamaged."
+      },
+      "attempt3": {
+        "title": "Couldn't detect the chip",
+        "description": "Make sure your passport has the NFC symbol."
+      }
+    },
+    "modals": {
+      "duplicate": {
+        "title": "ID already scanned",
+        "description": "This ID is already linked to your account. To continue, scan a different valid ID or use the one already linked.",
+        "chooseAnother": "Choose another ID"
+      },
+      "mrzTimeout": {
+        "title": "Code not detected",
+        "description": "Please make sure your ID has the code and that it is fully visible.",
+        "enterManually": "Enter manually"
+      },
+      "nfcDisabled": {
+        "title": "Turn on NFC to continue",
+        "description": "To scan the chip inside your ID, you need to enable NFC in your device settings.",
+        "disclaimer": "Click the button below or go to Settings > Connections > NFC and switch it on, then return to the app.",
+        "enableNFC": "Enable NFC"
+      },
+      "nfcReady": {
+        "title": "You're ready to continue!",
+        "description": "Place your phone flat against your document to start the scan.",
+        "startScan": "Start scan"
+      },
+      "mrzScanFailed": {
+        "title": "MRZ Scan Failed",
+        "description": "There was an issue reading your document's MRZ data.",
+        "sendReport": "Send Report",
+        "enterManually": "Enter Manually"
+      },
+      "nfcSystemFailure": {
+        "title": "NFC isn't working on your device",
+        "description": "Your phone NFC reader has stopped responding, so the app cannot continue with the scan.\n\nIf the problem persists, <bold>please restart your device and try again.</bold>"
+      },
+      "wifiInterference": {
+        "title": "Connection unstable",
+        "description": "We're having trouble maintaining a stable connection to your ID chip. This can sometimes be caused by WiFi interference.\n\n<bold>Try turning off WiFi</bold> in your device settings and scan again."
+      }
+    },
+    "tryAgain": "Try again",
+    "howToCheck": "How to check for the NFC symbol?",
+    "attemptOf": "Attempt {{attempt}} of {{max}}"
+  },
+  "qrScanner": {
+    "lightOn": "Light on",
+    "lightOff": "Light off"
+  },
+  "position_qr_code": "Position the QR code inside the frame",
+  "qr_scan_success": "QR code successfully scanned",
+  "invalid_qr_code": "Invalid QR code format",
+  "requesting_camera_permission": "Requesting camera permission...",
+  "camera_permission_denied": "Camera access is required to scan QR codes. Please enable it in your device settings to continue.",
+  "settings": {
+    "settings": {
+      "back": "Back",
+      "title": "Settings"
+    },
+    "developerOptions": {
+      "back": "Back",
+      "title": "Developer Options",
+      "enableDevMode": "Enable Developer Mode",
+      "enableDevModeDescription": "This lets you skip the passport scanning step and utilize simulated data.",
+      "loading": "Loading mock passports...",
+      "deleting": "Deleting mock passports..."
+    },
+    "whatsNext": {
+      "back": "Back",
+      "title": "What's next?",
+      "tryDemo": "Try demo",
+      "steps": {
+        "1": {
+          "title": "Start a verification",
+          "description": "When a website asks for proof (e.g. age, nationality, name), simply scan the QR code or click the button to begin."
+        },
+        "2": {
+          "title": "Review and approve",
+          "description": "See exactly what the website is asking, then confirm to share only what's needed."
+        },
+        "3": {
+          "title": "Try the demo:",
+          "description": "If you want to try it out now, check our demo."
+        }
+      }
+    },
+    "security": {
+      "back": "Back",
+      "title": "Security",
+      "requireAuth": "Require authentication",
+      "requireAuthDescription": "<bold>When verifying</bold> you'll need to authenticate with your password, face ID, or fingerprint before verifying.",
+      "loading": "Loading..."
+    },
+    "technicalInfo": {
+      "back": "Back",
+      "faceMatchDebug": "Facematch Debug",
+      "faceMatchDebugDescription": "Enable facematch debug mode",
+      "copyPhotoDG2": "Copy Photo (DG2)",
+      "submitAnonymousMetadata": "Submit anonymous metadata",
+      "submitMetadataTitle": "Submit anonymous metadata",
+      "submitMetadataDescription": "This will submit anonymous technical information about your ID to help improve the service. No personal information will be included.",
+      "submitMetadataButton": "Submit Anonymous Metadata",
+      "cancel": "Cancel"
+    },
+    "debugInfo": {
+      "title": "Debug Information",
+      "passportSection": "ID Information",
+      "technicalSection": "Technical Details",
+      "passportTechnicalSection": "Passport Technical Information",
+      "idTechnicalSection": "ID Technical Information",
+      "systemSection": "System Information",
+      "cscSection": "Country Signing Certificate",
+      "actions": "Actions",
+      "copied": "Copied",
+      "copiedToClipboard": "Data copied to clipboard",
+      "ldsVersion": "LDS Version",
+      "cmsVersion": "CMS Version",
+      "dscSigAlg": "DSC Sig Alg",
+      "sodSigAlg": "SOD Sig Alg",
+      "sodRsaExponent": "SOD RSA Exponent",
+      "sodRsaModulus": "SOD RSA Modulus",
+      "sodCurve": "SOD Curve",
+      "eContentHashAlg": "eContent Hash Alg",
+      "signedAttrHashAlg": "SignedAttr Hash Alg",
+      "eContentLen": "eContent Len",
+      "signedAttrLen": "SignedAttr Len",
+      "dscTbsCertificateLen": "DSC TBS certificate Len",
+      "systemDate": "System Date",
+      "dataGroups": "Data Groups",
+      "phone": "Phone",
+      "os": "OS",
+      "app": "App",
+      "ram": "RAM",
+      "copyDG1": "Copy DG1",
+      "copySOD": "Copy SOD",
+      "copyDG2Image": "Copy DG2 (Image)",
+      "copyDG2Base64": "Copy DG2 (Base64)",
+      "copySubjectKeyId": "Copy Subject Key ID",
+      "imageCopied": "The image has been copied to your clipboard",
+      "somethingWrongWithImage": "Something is wrong with the format of the image. Its raw base64 string was copied instead.",
+      "submitting": "Submitting...",
+      "submitAnonymousMetadata": "Submit Anonymous Metadata",
+      "success": "Your metadata has been successfully submitted. Thank you for helping us improve the app!",
+      "error": "There was an error submitting your metadata. Please try again later.",
+      "loadingCsc": "Loading CSC...",
+      "noCscFound": "No CSC found for this passport",
+      "cscCountry": "Country",
+      "cscSignatureAlgorithm": "Signature Algorithm",
+      "cscHashAlgorithm": "Hash Algorithm",
+      "cscKeyType": "Public Key Type",
+      "cscKeySize": "Key Size",
+      "cscExponent": "Exponent",
+      "cscCurve": "Curve",
+      "cscValidFrom": "Valid From",
+      "cscValidTo": "Valid To",
+      "cscSubjectKey": "Subject Key ID",
+      "cscAuthKey": "Authority Key ID",
+      "includeSignerInfo": "Include signer info",
+      "moreSensitive": "More sensitive",
+      "confirmMetadata": "Submit Anonymous Metadata",
+      "submit": "Submit",
+      "signerInfoWarning": "Signer information contains more technical details about your ID's signature.",
+      "metadataDescription": "This will submit anonymous technical information about your ID to help improve the service. No personal information will be included.",
+      "helpImprove": "Help us improve ZKPassport",
+      "errorReporting": "Event Reporting",
+      "errorReportingDescription": "Send success and failure reports to help improve the app",
+      "clearFaceMatchCache": "Clear FaceMatch Cache",
+      "faceMatchCacheCleared": "FaceMatch cache cleared",
+      "errorClearingFaceMatchCache": "Error clearing FaceMatch cache",
+      "copyDeviceUuid": "Copy Device ID",
+      "deviceUuidNotFound": "Device ID not found"
+    },
+    "options": {
+      "back": "Back",
+      "title": "Options",
+      "deleteID": "Delete ID",
+      "technicalInfo": "ID technical information",
+      "help": "What can I do next?",
+      "clearCache": "Clear cache",
+      "eventReporting": "Event Reporting",
+      "eventReportingDescription": "Help us improve the app by sharing anonymous crash reports. These reports never include your identity or any personal details, only technical metadata.",
+      "clearCacheTitle": "Clear cache",
+      "clearCacheDescription": "Clearing the cache will help free up storage space and fix problems caused by outdated cached files.",
+      "clearCacheButton": "Clear cache",
+      "clearCacheSuccessDescription": "The cache was cleared successfully.",
+      "clearCacheErrorDescription": "Oops! Something went wrong, try again later",
+      "notNow": "Not now",
+      "developerOptions": "Developer Options",
+      "security": "Security",
+      "aboutZKPassport": "About ZKPassport",
+      "version": "App Version"
+    }
+  },
+  "permissions": {
+    "cameraTitle": "Camera Permission Required",
+    "cameraMessage": "We need access to your camera to scan QR codes and the MRZ on your ID. Please enable camera access in your device settings.",
+    "biometricTitle": "Biometric Authentication",
+    "biometricNotAvailable": "Biometric authentication is not available on this device.",
+    "biometricNotEnrolled": "Please set up biometric authentication (such as Face ID or Touch ID) in your device settings to protect your ID data.",
+    "biometricPrompt": "Authenticate to continue",
+    "biometricFallback": "Use device passcode",
+    "biometricWarning": "Your device supports biometric authentication but you did not enable it. You can continue using the app without biometric authentication, but we recommend you to enable it for better security."
+  },
+  "screenshot": {
+    "privacyWarningTitle": "Privacy Warning",
+    "privacyWarningMessage": "A screenshot was detected. If someone asked you to send a photo of your ID details, do not do it.",
+    "understood": "Understood"
+  },
+  "errors": {
+    "proofGenerationError": "Proof Generation Error",
+    "oldUnsupportedZKRPassport": "Outdated Test Data",
+    "oldUnsupportedZKRPassportDescription": "Your test data is outdated and no longer supported. Please reload the mock passports.",
+    "cscNotFound": "Certificate Not Found",
+    "unsupportedPassport": "Unsupported ID",
+    "cscNotFoundSendReport": "Send Report",
+    "cscNotFoundDescription": "Our certificate registry does not currently support this ID. You can help us add support for this ID by sending a report. No sensitive data will be sent.",
+    "unsupportedPassportDescription": "Unfortunately your ID uses a signing algorithm that we don't support yet.",
+    "documentNumberRequired": "Document number is required",
+    "dateOfBirthRequired": "Date of birth is required",
+    "invalidDateFormat": "Invalid date format",
+    "invalidDate": "Invalid date",
+    "dateOfExpiryRequired": "Date of expiry is required",
+    "facematch": {
+      "appAttestNotSupported": "App attestation is not supported on this device"
+    }
+  },
+  "errorTitle": "Unexpected Error",
+  "errorMessage": "An unexpected error occurred. The app needs to restart.",
+  "restart": "Restart",
+  "memoryWarningTitle": "Low Memory Warning",
+  "memoryWarning": "Your device may not have enough memory to generate proofs. This could cause the app to crash. Would you like to continue anyway?",
+  "error": "Error"
+}

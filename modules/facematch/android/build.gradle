@@ -1,0 +1,84 @@
+apply plugin: 'com.android.library'
+
+group = 'expo.modules.facematch'
+version = '1.0.0'
+
+def expoModulesCorePlugin = new File(project(":expo-modules-core").projectDir.absolutePath, "ExpoModulesCorePlugin.gradle")
+apply from: expoModulesCorePlugin
+applyKotlinExpoModulesCorePlugin()
+useCoreDependencies()
+useExpoPublishing()
+
+// If you want to use the managed Android SDK versions from expo-modules-core, set this to true.
+// The Android SDK versions will be bumped from time to time in SDK releases and may introduce breaking changes in your module code.
+// Most of the time, you may like to manage the Android SDK versions yourself.
+def useManagedAndroidSdkVersions = false
+if (useManagedAndroidSdkVersions) {
+  useDefaultAndroidSdkVersions()
+} else {
+  buildscript {
+    // Simple helper that allows the root project to override versions declared by this library.
+    ext.safeExtGet = { prop, fallback ->
+      rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
+    }
+  }
+  project.android {
+    compileSdkVersion safeExtGet("compileSdkVersion", 34)
+    defaultConfig {
+      minSdkVersion safeExtGet("minSdkVersion", 21)
+      targetSdkVersion safeExtGet("targetSdkVersion", 34)
+    }
+  }
+}
+
+android {
+  namespace "expo.modules.facematch"
+  defaultConfig {
+    versionCode 1
+    versionName "1.0.0"
+    ndk {
+      abiFilters "arm64-v8a"//, "armeabi-v7a", "x86", "x86_64"
+    }
+  }
+  lintOptions {
+    abortOnError false
+  }
+  
+  sourceSets {
+    main {
+      jniLibs.srcDirs = ['src/main/jniLibs']
+      assets.srcDirs = ['src/main/assets']
+    }
+    
+    // Exclude large model files ONLY from release builds
+    // Debug builds keep them bundled for development
+    release {
+      assets {
+        srcDirs = ['src/main/assets']
+        exclude '**/models/arcface.ort'
+        exclude '**/models/scrfd_2.5g_bnkps.ort'
+      }
+    }
+  }
+  
+  packagingOptions {
+    // Exclude duplicate files that might come from dependencies
+    pickFirst 'lib/arm64-v8a/libc++_shared.so'
+    /*pickFirst 'lib/armeabi-v7a/libc++_shared.so'
+    pickFirst 'lib/x86/libc++_shared.so'
+    pickFirst 'lib/x86_64/libc++_shared.so'*/
+  }
+}
+
+repositories {
+  mavenCentral()
+    google()
+}
+
+dependencies {
+  implementation "com.facebook.react:react-native:+"
+  
+  // Play Asset Delivery
+  implementation 'com.google.android.play:asset-delivery:2.2.2'
+  implementation 'com.google.android.play:asset-delivery-ktx:2.2.2'
+}

@@ -1,0 +1,104 @@
+// General
+"Unable to read the SOD PKCS7 Certificate. %@" = "Unable to read the SOD PKCS7 Certificate. %@";
+"Unable to verify the SOD X509 certificate. %@" = "Unable to verify the SOD X509 certificate. %@";
+"Unable to verify the SOD Datagroup hashes. %@" = "Unable to verify the SOD Datagroup hashes. %@";
+"Unable to read ECDSA Public key %@!" = "Unable to read ECDSA Public key %@!";
+"Unable to extract Signer data from PKCS7 %@!" = "Unable to extract Signer data from PKCS7 %@!";
+"Unable to Verify the SOD SignedAttributes %@!" = "Unable to Verify the SOD SignedAttributes %@!";
+"Unable to parse ASN1 %@!" = "Unable to parse ASN1 %@!";
+"Unable to decrypt RSA Signature %@!" = "Unable to decrypt RSA Signature %@!";
+
+// Passive Authentication
+"Unable to parse the SOD Datagroup hashes. %@" = "Unable to parse the SOD Datagroup hashes. %@";
+"DataGroup hash not present or didn't match %@!" = "DataGroup hash not present or didn't match %@!";
+"DataGroup SOD not present or not read %@!" = "DataGroup SOD not present or not read %@!";
+
+// NFC Reading
+"Ready to Scan" = "Ready to Scan";
+"Hold your phone against your ID." = "Hold your phone against your ID.";
+"Move your phone slowly against your ID" = "Move your phone slowly against your ID";
+"Reading Common Data..." = "Reading Common Data...";
+"Reading MRZ..." = "Reading MRZ...";
+"Reading Photo..." = "Reading Photo...";
+"Reading Fingerprint..." = "Reading Fingerprint...";
+"Reading Iris..." = "Reading Iris...";
+"Reading Portrait..." = "Reading Portrait...";
+"Reading Signature..." = "Reading Signature...";
+"Reading Security options..." = "Reading Security options...";
+"Reading Public key..." = "Reading Public key...";
+"Reading Persons to notify..." = "Reading Persons to notify...";
+"Reading Security Data..." = "Reading Security Data...";
+"Verifying..." = "Verifying...";
+"Hold still" = "Hold still";
+"Authentication failed" = "Authentication failed";
+"PACE Authentication failed, switching to BAC" = "PACE Authentication failed, switching to BAC";
+"Reading Photo details..." = "Reading Photo details...";
+"ID read failed" = "ID read failed";
+"ID scanned successfully" = "ID scanned successfully";
+"Scanning..." = "Scanning...";
+"Reading..." = "Reading...";
+"Saving ID..." = "Saving ID...";
+"Please wait a moment while your ID gets encrypted and saved locally to your device." = "Please wait a moment while your ID gets encrypted and saved locally to your device.";
+
+// Additional Error Messages
+"There was an issue reading the ID. Please try again." = "There was an issue reading the ID. Please try again.";
+"Tag not valid." = "Tag not valid.";
+"More than 1 tags was found. Please present only 1 tag." = "More than 1 tags was found. Please present only 1 tag.";
+"Connection error. Please try again." = "Connection error. Please try again.";
+"MRZ Key not valid for this document." = "MRZ Key not valid for this document.";
+"Stay still, the modal will show again in 5s" = "Stay still, the modal will show again in 5s";
+"Error: %@ - (0x%@, 0x%@)" = "Error: %@ - (0x%@, 0x%@)";
+"Sorry, there was a problem reading the ID. Please try again" = "Sorry, there was a problem reading the ID. Please try again";
+
+// Passport Reader Errors
+"Invalid response" = "Invalid response";
+"Unexpected error" = "Unexpected error";
+"NFC not supported" = "NFC not supported";
+"No connected tag" = "No connected tag";
+"D087 malformed" = "D087 malformed";
+"Invalid response checksum" = "Invalid response checksum";
+"Missing mandatory fields" = "Missing mandatory fields";
+"Cannot decode ASN1 length" = "Cannot decode ASN1 length";
+"Invalid ASN1 value" = "Invalid ASN1 value";
+"Unable to protect APDU" = "Unable to protect APDU";
+"Unable to unprotect APDU" = "Unable to unprotect APDU";
+"Unsupported data group" = "Unsupported data group";
+"Data group not read" = "Data group not read";
+"Unknown tag" = "Unknown tag";
+"Unknown image format" = "Unknown image format";
+"Not implemented" = "Not implemented";
+"User canceled" = "User canceled";
+"Invalid MRZ key" = "Invalid MRZ key";
+"Invalid hash algorithm specified" = "Invalid hash algorithm specified";
+"Unsupported cipher algorithm" = "Unsupported cipher algorithm";
+"Unsupported mapping type" = "Unsupported mapping type";
+"PACE error (%@) - %@" = "PACE error (%@) - %@";
+"Chip authentication failed" = "Chip authentication failed";
+"Invalid data passed - %@" = "Invalid data passed - %@";
+"Not yet supported - %@" = "Not yet supported - %@";
+"Unable to extract public key from SOD" = "Unable to extract public key from SOD";
+"Unable to extract public key from DG15" = "Unable to extract public key from DG15";
+
+// MRZ Scanner UI
+"Photo Page" = "Photo Page";
+" of the Passport" = " of the Passport";
+"Backside" = "Backside";
+" of National ID" = " of National ID";
+" of Residence Permit" = " of Residence Permit";
+"Scanning in progress" = "Scanning in progress";
+"Hold still" = "Hold still";
+"Fit the ID " = "Fit the ID ";
+"in the frame" = "in the frame";
+"Cropped" = "Cropped";
+"Position MRZ in the frame" = "Position MRZ in the frame";
+"Move camera slightly down" = "Move camera slightly down";
+"Move camera slightly up" = "Move camera slightly up";
+"Move camera slightly right" = "Move camera slightly right";
+"Move camera slightly left" = "Move camera slightly left";
+"Center the MRZ in the frame" = "Center the MRZ in the frame";
+"Move slightly closer to the ID" = "Move slightly closer to the ID";
+"Nearly there..." = "Nearly there...";
+"Scanning: %d%%" = "Scanning: %d%%";
+"Connection lost. Keep your device still and close to the ID." = "Connection lost. Keep your device still and close to the ID.";
+"Reconnecting... (%d/%d)" = "Reconnecting... (%d/%d)";
+"Reconnected! Continuing scan..." = "Reconnected! Continuing scan..."; 

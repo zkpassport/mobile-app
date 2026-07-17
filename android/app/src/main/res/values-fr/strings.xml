@@ -1,0 +1,47 @@
+<resources>
+  <string name="permission_camera_rationale">L\'autorisation de la caméra est requise pour scanner les documents.</string>
+  
+  <!-- MRZ Scanner Instructions -->
+  <string name="mrz_instruction_initial">Placez votre MRZ dans le cadre</string>
+  <string name="mrz_instruction_hold_still">Restez immobile</string>
+  <string name="mrz_instruction_stuck">Essayez avec un fond sombre (ex: table noire)</string>
+  <string name="mrz_instruction_progress">Vérification… %1$s</string>
+  <string name="mrz_instruction_nearly_there">Presque fini</string>
+  <string name="mrz_instruction_finished">MRZ retrouvée</string>
+  <string name="mrz_torch_warning">Attention aux reflets du flash</string>
+  
+  <!-- MRZ Headlines -->
+  <string name="mrz_headline_passport_primary">Page photo</string>
+  <string name="mrz_headline_passport_secondary">du passeport</string>
+  <string name="mrz_headline_id_primary">Verso</string>
+  <string name="mrz_headline_id_secondary">de la carte d\'identité</string>
+  <string name="mrz_headline_residence_primary">Verso</string>
+  <string name="mrz_headline_residence_secondary">du titre de séjour</string>
+  
+  <!-- MRZ Confirmation Dialog -->
+  <string name="mrz_confirmation_question">La MRZ est-elle correcte ?</string>
+  <string name="mrz_confirmation_subtitle">Ne vous inquiétez pas si votre nom est légèrement incorrect</string>
+  <string name="mrz_button_try_again">Réessayer</string>
+  <string name="mrz_button_confirm">Oui</string>
+  <string name="mrz_button_close">Fermer</string>
+  
+  <!-- MRZ Success -->
+  <string name="mrz_success_headline_primary">Détails</string>
+  <string name="mrz_success_headline_secondary">récupérés avec succès</string>
+  
+  <!-- MRZ Status -->
+  <string name="mrz_status_detecting">Alignez le MRZ avec le guide</string>
+  <string name="mrz_status_hold_still">Restez immobile</string>
+  <string name="mrz_status_scanning">Scan en cours</string>
+  <string name="mrz_status_cropped_title">Ajustez la pièce d\'identité</string>
+  <string name="mrz_status_cropped_subtitle">dans le cadre</string>
+  <string name="mrz_status_error">Une erreur s\'est produite</string>
+  <string name="mrz_status_timeout">Nous n\'avons pas pu trouver le MRZ à temps</string>
+  <string name="mrz_status_duplicate">Cette pièce d\'identité est déjà enregistrée</string>
+  <string name="mrz_status_success">Scan terminé</string>
+  <string name="mrz_status_cropped_indicator">Recadré</string>
+  <string name="mrz_status_error_indicator">Réessayer</string>
+  <string name="mrz_status_timeout_indicator">Délai dépassé</string>
+  <string name="mrz_status_duplicate_indicator">Doublon</string>
+  <string name="mrz_status_success_indicator">Succès</string>
+</resources>

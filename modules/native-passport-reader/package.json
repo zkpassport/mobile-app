@@ -1,0 +1,14 @@
+{
+  "name": "react-native-passport-reader",
+  "version": "0.0.0",
+  "description": "Native module to read passport",
+  "main": "src/index",
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme",
+  "create-react-native-library": {
+    "type": "module-legacy",
+    "languages": "kotlin-swift",
+    "version": "0.41.2"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "expo": {
+    "name": "ZKPassport",
+    "slug": "zkpassport",
+    "version": "1.3.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "zkpassport",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#07245C"
+    },
+    "ios": {
+      "buildNumber": "1",
+      "supportsTablet": false,
+      "bundleIdentifier": "app.zkpassport.zkpassport",
+      "associatedDomains": ["applinks:zkpassport.id"],
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "versionCode": "1",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "app.zkpassport.zkpassport",
+      "blockedPermissions": ["android.permission.READ_MEDIA_IMAGES"],
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "zkpassport.id",
+              "pathPrefix": "/r"
+            },
+            {
+              "scheme": "https",
+              "host": "*.zkpassport.id",
+              "pathPrefix": "/r"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/zkpassport-logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Metropolis-Medium.otf",
+            "./assets/fonts/Metropolis-Bold.otf",
+            "./assets/fonts/Metropolis-SemiBold.otf"
+          ]
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "buildToolsVersion": "35.0.0"
+          },
+          "ios": {
+            "deploymentTarget": "15.2",
+            "useFrameworks": "dynamic"
+          }
+        }
+      ],
+      "expo-localization",
+      "expo-secure-store",
+      "expo-video"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1150fe7e-6d4b-4f4e-8334-abd755d9841b"
+      }
+    },
+    "owner": "zkpassport"
+  }
+}

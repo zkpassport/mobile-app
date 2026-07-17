@@ -1,0 +1,28 @@
+[package]
+name = "facematch"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+# crate-type is specified per-target in build scripts:
+# - staticlib for iOS
+# - cdylib for Android
+
+[dependencies]
+jni = "0.21.1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+anyhow = "1"
+ndarray = "0.16"
+image = "0.24"
+nalgebra = "0.32"
+
+ort = { version = "2.0.0-rc.10", features = ["ndarray", "download-binaries"] }
+
+# iOS Simulator (arm64 sim on Apple Silicon, x86_64 on Intel)
+[target.'cfg(all(target_os = "ios", target_abi = "sim"))'.dependencies]
+ort = { version = "2.0.0-rc.10", default-features = false, features = ["ndarray"] } # often safer w/o CoreML on sim
+
+# iOS Device (arm64)
+[target.'cfg(all(target_os = "ios", not(target_abi = "sim")))'.dependencies]
+ort = { version = "2.0.0-rc.10", default-features = false, features = ["coreml", "ndarray"] }

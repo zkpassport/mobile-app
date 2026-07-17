@@ -1,0 +1,8 @@
+node_modules
+build
+dist
+ios
+android
+res
+.expo
+.github

@@ -1,0 +1,22 @@
+// MRZ Scanner UI
+"Photo Page" = "Photo Page";
+" of the Passport" = " of the Passport";
+"Backside" = "Backside";
+" of National ID" = " of National ID";
+" of Residence Permit" = " of Residence Permit";
+"Scanning in progress" = "Scanning in progress";
+"Hold still" = "Hold still";
+"Fit the ID " = "Fit the ID ";
+"in the frame" = "in the frame";
+"Cropped" = "Cropped";
+"Position MRZ in the frame" = "Position MRZ in the frame";
+"Move camera slightly down" = "Move camera slightly down";
+"Move camera slightly up" = "Move camera slightly up";
+"Move camera slightly right" = "Move camera slightly right";
+"Move camera slightly left" = "Move camera slightly left";
+"Center the MRZ in the frame" = "Center the MRZ in the frame";
+"Move slightly closer to the ID" = "Move slightly closer to the ID";
+"Nearly there..." = "Nearly there...";
+"Scanning: %d%%" = "Scanning: %d%%";
+"Scanning..." = "Scanning...";
+

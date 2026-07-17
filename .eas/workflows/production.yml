@@ -1,0 +1,34 @@
+name: Build & Submit (Production)
+
+jobs:
+  build_android:
+    type: build
+    params:
+      platform: android
+      profile: production
+
+  build_ios:
+    type: build
+    params:
+      platform: ios
+      profile: production
+
+  # Android: Submit to Play Store
+  # See: https://docs.expo.dev/eas/workflows/pre-packaged-jobs/#submit
+  submit_android:
+    type: submit
+    needs: [build_android]
+    params:
+      build_id: ${{ needs.build_android.outputs.build_id }}
+      profile: production
+      release_notes_path: release-notes
+
+  # iOS: Submit to TestFlight (internal and external testers)
+  # See: https://docs.expo.dev/eas/workflows/pre-packaged-jobs/#testflight
+  # Note: Needs to be manually submitted for a public App Store release
+  testflight_ios:
+    type: testflight
+    needs: [build_ios]
+    params:
+      build_id: ${{ needs.build_ios.outputs.build_id }}
+      profile: production

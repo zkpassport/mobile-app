@@ -1,0 +1,8 @@
+# Rust build artifacts
+rust/target/
+rust/Cargo.lock
+
+# Built native libraries (these will be built from source)
+# Uncomment if you want to commit the binaries instead:
+# ios/lib/*.a
+# android/src/main/jniLibs/**/*.so

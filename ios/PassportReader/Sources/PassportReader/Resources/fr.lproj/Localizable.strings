@@ -1,0 +1,104 @@
+// General
+"Unable to read the SOD PKCS7 Certificate. %@" = "Impossible de lire le certificat PKCS7 SOD. %@";
+"Unable to verify the SOD X509 certificate. %@" = "Impossible de vérifier le SOD du certificat X509. %@";
+"Unable to verify the SOD Datagroup hashes. %@" = "Impossible de vérifier les hash des groupes de données du SOD. %@";
+"Unable to read ECDSA Public key %@!" = "Impossible de lire la clé publique ECDSA %@ !";
+"Unable to extract Signer data from PKCS7 %@!" = "Impossible d'extraire les données du signataire de PKCS7 %@ !";
+"Unable to Verify the SOD SignedAttributes %@!" = "Impossible de vérifier les attributs signés du SOD %@ !";
+"Unable to parse ASN1 %@!" = "Impossible d'analyser l'encodage ASN1 %@ !";
+"Unable to decrypt RSA Signature %@!" = "Impossible de déchiffrer la signature RSA %@ !";
+
+// Passive Authentication
+"Unable to parse the SOD Datagroup hashes. %@" = "Impossible d'analyser les hash des groupes de données du SOD. %@";
+"DataGroup hash not present or didn't match %@!" = "Hash manquant ou invalide %@ !";
+"DataGroup SOD not present or not read %@!" = "Groupe de données absent ou non lu %@ !";
+
+// NFC Reading
+"Ready to Scan" = "Commencez le scan";
+"Hold your phone against your ID." = "Maintenez votre téléphone contre votre pièce d'identité.";
+"Move your phone slowly against your ID" = "Déplacez lentement votre téléphone contre votre pièce d'identité";
+"Reading Common Data..." = "Lecture des données initiales...";
+"Reading MRZ..." = "Lecture de la MRZ...";
+"Reading Photo..." = "Lecture de la photo...";
+"Reading Fingerprint..." = "Lecture des empreintes digitales...";
+"Reading Iris..." = "Lecture de l'iris...";
+"Reading Portrait..." = "Lecture du portrait...";
+"Reading Signature..." = "Lecture de la signature...";
+"Reading Security options..." = "Lecture des options de sécurité...";
+"Reading Public key..." = "Lecture de la clé publique...";
+"Reading Persons to notify..." = "Lecture des personnes à prévenir...";
+"Reading Security Data..." = "Lecture des données de sécurité...";
+"Verifying..." = "Vérification...";
+"Hold still" = "Ne bougez plus";
+"Authentication failed" = "Échec de l'authentification";
+"PACE Authentication failed, switching to BAC" = "Échec de l'authentification PACE, passage à BAC";
+"Reading Photo details..." = "Lecture des détails de la photo...";
+"ID read failed" = "Échec de la lecture de la pièce d'identité";
+"ID scanned successfully" = "Pièce d'identité scannée avec succès";
+"Scanning..." = "Scan en cours...";
+"Reading..." = "Lecture en cours...";
+"Saving ID..." = "Enregistrement de la pièce d'identité...";
+"Please wait a moment while your ID gets encrypted and saved locally to your device." = "Veuillez patienter quelques secondes pendant que votre pièce d'identité est encryptée et enregistrée localement sur votre appareil.";
+
+// Additional Error Messages
+"There was an issue reading the ID. Please try again." = "Un problème est survenu lors de la lecture de la pièce d'identité. Veuillez réessayer.";
+"Tag not valid." = "Tag non valide.";
+"More than 1 tags was found. Please present only 1 tag." = "Plus d'un tag a été détecté. Veuillez ne présenter qu'un seul tag.";
+"Connection error. Please try again." = "Erreur de connexion. Veuillez réessayer.";
+"MRZ Key not valid for this document." = "Clé MRZ non valide pour ce document.";
+"Stay still, the modal will show again in 5s" = "Ne bougez pas, la fenêtre réapparaîtra dans 5 secondes";
+"Error: %@ - (0x%@, 0x%@)" = "Erreur : %@ - (0x%@, 0x%@)";
+"Sorry, there was a problem reading the ID. Please try again" = "Désolé, un problème est survenu lors de la lecture de la pièce d'identité. Veuillez réessayer";
+
+// Passport Reader Errors
+"Invalid response" = "Réponse invalide";
+"Unexpected error" = "Erreur inattendue";
+"NFC not supported" = "NFC non supporté";
+"No connected tag" = "Aucun tag connecté";
+"D087 malformed" = "D087 mal formé";
+"Invalid response checksum" = "Le checksum de la réponse est invalide";
+"Missing mandatory fields" = "Champs obligatoires manquants";
+"Cannot decode ASN1 length" = "Impossible de décoder la longueur ASN1";
+"Invalid ASN1 value" = "Valeur ASN1 invalide";
+"Unable to protect APDU" = "Impossible de protéger l'APDU";
+"Unable to unprotect APDU" = "Impossible de déprotéger l'APDU";
+"Unsupported data group" = "Groupe de données non supporté";
+"Data group not read" = "Groupe de données non lu";
+"Unknown tag" = "Tag inconnu";
+"Unknown image format" = "Format d'image inconnu";
+"Not implemented" = "Non implémenté";
+"User canceled" = "Annulé par l'utilisateur";
+"Invalid MRZ key" = "Clé MRZ invalide";
+"Invalid hash algorithm specified" = "Algorithme de hashage spécifié invalide";
+"Unsupported cipher algorithm" = "Algorithme de chiffrement non supporté";
+"Unsupported mapping type" = "Type de mapping non supporté";
+"PACE error (%@) - %@" = "Erreur PACE (%@) - %@";
+"Chip authentication failed" = "Échec de l'authentification de la puce";
+"Invalid data passed - %@" = "Données invalides transmises - %@";
+"Not yet supported - %@" = "Pas encore supporté - %@";
+"Unable to extract public key from SOD" = "Impossible d'extraire la clé publique du SOD";
+"Unable to extract public key from DG15" = "Impossible d'extraire la clé publique du DG15";
+
+// MRZ Scanner UI
+"Photo Page" = "Page photo";
+" of the Passport" = " du passeport";
+"Backside" = "Verso";
+" of National ID" = " de la carte d'identité";
+" of Residence Permit" = " du titre de séjour";
+"Scanning in progress" = "Scan en cours";
+"Hold still" = "Restez immobile";
+"Fit the ID " = "Ajustez la pièce d'identité ";
+"in the frame" = "dans le cadre";
+"Cropped" = "Recadré";
+"Position MRZ in the frame" = "Positionnez le MRZ dans le cadre";
+"Move camera slightly down" = "Déplacez légèrement la caméra vers le bas";
+"Move camera slightly up" = "Déplacez légèrement la caméra vers le haut";
+"Move camera slightly right" = "Déplacez légèrement la caméra vers la droite";
+"Move camera slightly left" = "Déplacez légèrement la caméra vers la gauche";
+"Center the MRZ in the frame" = "Centrez le MRZ dans le cadre";
+"Move slightly closer to the ID" = "Rapprochez-vous légèrement de la pièce d'identité";
+"Nearly there..." = "Presque terminé...";
+"Scanning: %d%%" = "Scan : %d%%";
+"Connection lost. Keep your device still and close to the ID." = "Connexion perdue. Gardez votre appareil immobile et proche de la pièce d'identité.";
+"Reconnecting... (%d/%d)" = "Reconnexion... (%d/%d)";
+"Reconnected! Continuing scan..." = "Reconnecté ! Reprise du scan..."; 

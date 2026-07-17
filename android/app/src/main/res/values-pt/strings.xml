@@ -1,0 +1,48 @@
+<resources>
+  <string name="permission_camera_rationale">A permissão da câmera é necessária para escanear documentos.</string>
+  
+  <!-- MRZ Scanner Instructions -->
+  <string name="mrz_instruction_initial">Posicione o código no enquadramento</string>
+  <string name="mrz_instruction_hold_still">Fique parado</string>
+  <string name="mrz_instruction_stuck">Tente com um fundo escuro (ex: mesa preta)</string>
+  <string name="mrz_instruction_progress">Verificando… %1$s</string>
+  <string name="mrz_instruction_nearly_there">Quase lá</string>
+  <string name="mrz_instruction_finished">Código obtido</string>
+  <string name="mrz_torch_warning">Cuidado com o reflexo da lanterna</string>
+  
+  <!-- MRZ Headlines -->
+  <string name="mrz_headline_passport_primary">Página da foto</string>
+  <string name="mrz_headline_passport_secondary">do Passaporte</string>
+  <string name="mrz_headline_id_primary">Verso</string>
+  <string name="mrz_headline_id_secondary">do documento</string>
+  <string name="mrz_headline_residence_primary">Verso</string>
+  <string name="mrz_headline_residence_secondary">da Autorização de Residência</string>
+  
+  <!-- MRZ Confirmation Dialog -->
+  <string name="mrz_confirmation_question">O código está correto?</string>
+  <string name="mrz_confirmation_subtitle">Não se preocupe se o nome estiver ligeiramente errado</string>
+  <string name="mrz_button_try_again">Tentar novamente</string>
+  <string name="mrz_button_confirm">Sim</string>
+  <string name="mrz_button_close">Fechar</string>
+  
+  <!-- MRZ Success -->
+  <string name="mrz_success_headline_primary">Detalhes</string>
+  <string name="mrz_success_headline_secondary">obtidos com sucesso</string>
+  
+  <!-- MRZ Status -->
+  <string name="mrz_status_detecting">Alinhe o código com o guia</string>
+  <string name="mrz_status_hold_still">Fique parado</string>
+  <string name="mrz_status_scanning">Escaneamento em andamento</string>
+  <string name="mrz_status_cropped_title">Ajuste o documento</string>
+  <string name="mrz_status_cropped_subtitle">no enquadramento</string>
+  <string name="mrz_status_error">Algo deu errado</string>
+  <string name="mrz_status_timeout">Não conseguimos encontrar o código</string>
+  <string name="mrz_status_duplicate">Este documento já está salvo</string>
+  <string name="mrz_status_success">Escaneamento concluído</string>
+  <string name="mrz_status_cropped_indicator">Cortado</string>
+  <string name="mrz_status_error_indicator">Tentar novamente</string>
+  <string name="mrz_status_timeout_indicator">Tempo esgotado</string>
+  <string name="mrz_status_duplicate_indicator">Duplicado</string>
+  <string name="mrz_status_success_indicator">Sucesso</string>
+</resources>
+

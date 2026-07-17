@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": {
+    "modules": ["FaceMatchModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.facematch.FaceMatch"]
+  }
+}

@@ -1,0 +1,940 @@
+{
+  "continue": "Continuer",
+  "close": "Fermer",
+  "returnToApp": "Retour à l'application",
+  "returnToAppNamed": "Retour à {{name}}",
+  "loading": "Chargement...",
+  "slideToVerify": "Glissez pour continuer",
+  "time": "Heure",
+  "verificationPurpose": "Objectif de la vérification",
+  "purpose": "Objectif",
+  "refreshApp": "Rafraîchir l'application",
+  "chooseAnotherID": "Choisir une autre pièce d'identité",
+  "please": "Veuillez",
+  "Back": "Retour",
+  "scanYourID": "Scanner votre pièce d'identité",
+  "developerOptions": "Options développeurs",
+  "devModeDescription": "Cela vous permet de contourner le scan du passeport et d'utiliser des données de test.",
+  "enableDevMode": "Activer le mode développeur",
+  "cancel": "Annuler",
+  "confirm": "Confirmer",
+  "confirmDetails": "Confirmer les détails",
+  "ok": "OK",
+  "devModeEnabled": "Mode développeur activé",
+  "mockPassportsLoadedMessage": "Les passeports de test sont maintenant disponibles",
+  "generatingAttestation": "En cours de traitement...",
+  "tryAgain": "Réessayer",
+  "go_back": "Retour",
+  "dismiss": "Fermer",
+  "restartApp": "Redémarrer l'application",
+  "somethingWentWrong": "Une erreur s'est produite",
+  "sendReport": "Envoyer le rapport",
+  "unexpectedErrorDescription": "Une erreur inattendue s'est produite. Veuillez réessayer plus tard. Aidez-nous à corriger ce problème en envoyant un rapport.",
+  "expired": "Expiré",
+  "date": "Date",
+  "id": "ID",
+  "country": "Pays",
+  "success": "Succès",
+  "home": {
+    "loadingPassport": "Chargement de la pièce d'identité...",
+    "noID": "Aucune pièce d'identité trouvée",
+    "scanIDFirst": "Veuillez scanner votre pièce d'identité pour continuer."
+  },
+  "tabs": {
+    "ids": "Pièces d'identité",
+    "verify": "Vérifier",
+    "history": "Historique"
+  },
+  "homeView": {
+    "tagline": "Vérifiez votre identité en toute confidentialité",
+    "whyScanLink": "Pourquoi scanner ma pièce d'identité ?",
+    "scanButton": "Scanner votre pièce d'identité",
+    "loadIDs": "Charger les pièces d'identité",
+    "errorReportingConsent": {
+      "title": "Aidez à améliorer ZKPassport",
+      "description": "Aidez-nous à améliorer l'application en partageant des rapports d'erreurs anonymes.",
+      "disclaimer": "Ces rapports n'incluent jamais votre identité ou vos détails personnels, uniquement des métadonnées techniques.",
+      "sendReports": "Envoyer les rapports",
+      "notNow": "Pas maintenant"
+    }
+  },
+  "nfcReading": {
+    "readyToScan": "Prêt à scanner",
+    "holdPhone": "Maintenez votre téléphone contre votre pièce d'identité.",
+    "readingCommon": "Lecture des données communes...",
+    "readingMRZ": "Lecture de la MRZ...",
+    "readingPhoto": "Lecture de la photo...",
+    "readingPortrait": "Lecture du portrait...",
+    "readingSignature": "Lecture de la signature...",
+    "readingSecurityOptions": "Lecture des options de sécurité...",
+    "readingPublicKey": "Lecture de la clé publique...",
+    "readingSecurityData": "Lecture des données de sécurité...",
+    "authenticating": "Restez immobile",
+    "authenticationFailed": "Échec de l'authentification",
+    "paceFailed": "Échec de l'authentification PACE, basculement vers BAC",
+    "readingPhotoDetails": "Lecture des détails de la photo...",
+    "passportReadFailed": "Échec de la lecture de la pièce d'identité",
+    "passportScanned": "Pièce d'identité scannée avec succès",
+    "scanning": "Scan en cours...",
+    "reading": "Lecture en cours...",
+    "savingPassportDescription": "Veuillez patienter pendant que votre pièce d'identité est chiffrée et enregistrée localement sur votre appareil.",
+    "savingID": "Enregistrement de la pièce d'identité",
+    "connectionLost": {
+      "title": "Connexion perdue",
+      "retag1": "Replacez votre téléphone sur votre pièce d'identité pour continuer",
+      "retag2": "Maintenez votre téléphone bien stable sur la pièce d'identité",
+      "retag3": "Dernier essai - maintenez fermement le téléphone sur la pièce d'identité",
+      "maxRetries": "Impossible de se reconnecter. Veuillez réessayer."
+    },
+    "tagReconnected": "Reconnecté ! Reprise du scan...",
+    "tagReconnectedTitle": "Reconnecté",
+    "wrongTagRetag": "Mauvais tag détecté. Placez votre téléphone sur votre pièce d'identité."
+  },
+  "IDSelectedCard": {
+    "title": "Pièce d'identité sélectionnée",
+    "infoText": "Vos informations sont stockées localement sur votre téléphone."
+  },
+  "AccessRequestHeader": {
+    "trustedDomain": "Domaine vérifié",
+    "untrustedDomain": "Domaine non vérifié, faites attention !"
+  },
+  "LoadingOverlay": {
+    "verification": "<bold>Vérification</bold> en cours",
+    "pleaseKeepPhoneAwake": "Veuillez garder l'écran de votre téléphone allumé pendant ce processus"
+  },
+  "onboardingModal": {
+    "startScan": "Scanner",
+    "next": "Suivant",
+    "agreePrefix": "En continuant, vous acceptez les ",
+    "termsLink": "Conditions d'utilisation",
+    "and": " & la ",
+    "privacyLink": "Politique de confidentialité",
+    "title": {
+      "0": "Scannez une fois, vérifiez plus rapidement",
+      "1": "Confidentialité par défaut",
+      "2": "Ce qui est partagé"
+    },
+    "items": {
+      "0": {
+        "title1": "Scannez une fois, vérifiez plus rapidement",
+        "description1": "Scannez une pièce d'identité émise par un gouvernement pour sauvegarder votre identité de manière privée.",
+        "title2": "Réutilisez sans rescanner",
+        "description2": "Vérifiez en quelques secondes sans scanner votre pièce d'identité à chaque fois."
+      },
+      "1": {
+        "title1": "Sauvegardé localement sur votre téléphone",
+        "description1": "Votre pièce d'identité est scannée et sauvegardée localement sur votre téléphone.",
+        "title2": "Non traçable entre les sites Web",
+        "description2": "Les sites Web ne peuvent pas vous tracer ou suivre votre activité sur d'autres sites."
+      },
+      "2": {
+        "title1": "Révélez uniquement ce qui est nécessaire",
+        "description1": "Le site Web ne découvre pas qui vous êtes, seulement si vous répondez à leurs exigences.",
+        "title2": "Vérification locale",
+        "description2": "Les vérifications s'exécutent localement sur votre téléphone, et non sur un serveur."
+      }
+    }
+  },
+  "PrivacySummary": {
+    "title": "Détails sur la confidentialité",
+    "standard": {
+      "title": "Mode de confidentialité standard",
+      "description": "Ce mode garde votre identité privée vis-à-vis du site Web, mais l'identifiant pourrait être recréé par quelqu'un qui a déjà vos données de passeport, comme l'autorité émettrice. Il offre une forte confidentialité, mais pas le niveau le plus élevé.",
+      "features": {
+        "notVisibleToWebsite": "Non visible par le site Web ou ZKPassport",
+        "notLinkableAcrossWebsites": "Non traçable entre sites Web",
+        "couldBeRecreated": "Pourrait être recréé par quelqu'un ayant les données de votre pièce d'identité",
+        "lowerPrivacy": "Confidentialité inférieure comparé au mode de confidentialité maximale",
+        "descriptions": {
+          "notVisibleToWebsite": "Le site Web n'apprend pas qui vous êtes, seulement si vous répondez à ses exigences.",
+          "notLinkableAcrossWebsites": "Les sites Web ne peuvent pas vous tracer ou vous suivre entre eux.",
+          "couldBeRecreated": "L'autorité émettrice ou toute personne ayant vos informations de votre pièce d'identité pourrait, en théorie, recalculer le même identifiant et vous reconnaître.",
+          "lowerPrivacy": "Il vous protège des sites Web, mais pas nécessairement de l'autorité émettrice de votre pièce d'identité."
+        }
+      }
+    },
+    "full": {
+      "title": "Mode de confidentialité maximale",
+      "description": "Ce mode vous offre la confidentialité la plus forte. L'identifiant utilisé ne peut être recréé ou lié à vous par personne, ni le site Web, ni ZKPassport, ni l'autorité émettrice.",
+      "features": {
+        "notLinkableByAnyone": "Complètement non traçable",
+        "notLinkableAcrossWebsites": "Non traçable entre sites Web",
+        "cannotBeRecreated": "Ne peut pas être recréé à partir des données de votre pièce d'identité",
+        "yourIdentityRemainsFullyPrivate": "Votre identité reste totalement privée",
+        "descriptions": {
+          "notLinkableByAnyone": "Personne, ni le site Web, ni ZKPassport, ni le gouvernement émetteur ne peut lier cette preuve à vous.",
+          "notLinkableAcrossWebsites": "Ni le site Web, ni ZKPassport, ni le gouvernement émetteur ne peuvent lier cette preuve à vous.",
+          "cannotBeRecreated": "Même quelqu'un qui a déjà les données de votre pièce d'identité ne peut pas générer cet identifiant.",
+          "yourIdentityRemainsFullyPrivate": "Seul le fait que vous répondez aux exigences du site Web est révélé. Rien d'autre."
+        }
+      }
+    }
+  },
+  "UnableToContinue": {
+    "title": "Impossible de continuer",
+    "description": "Vous ne pouvez pas continuer car vous ne répondez pas aux exigences. Vos données resteront sur votre téléphone et ne seront pas partagées."
+  },
+  "VerificationCriteriaList": {
+    "title": "Informations demandées",
+    "subtitle": "Ce site Web a demandé de vérifier les informations suivantes :"
+  },
+  "accessRequest": {
+    "privacyLinkText": "En savoir plus sur la confidentialité",
+    "title": "Un site Web demande l'accès à vos informations",
+    "verifying": "Vérification...",
+    "keepPhoneAwake": "Veuillez garder l'écran de votre téléphone allumé pendant ce processus",
+    "done": "Terminé !",
+    "doneDescription": "Vous pouvez maintenant retourner sur le site Web.",
+    "wouldLikeToProve": "Informations demandées",
+    "purpose": "Objectif : {{purpose}}",
+    "domainNotVerified": "Nous ne sommes pas en mesure de vérifier le domaine du site Web. Il peut s'agir d'un problème de connexion ou alors le site Web n'est pas fiable.",
+    "domainNotVerifiedTitle": "Domaine non vérifié",
+    "domainVerifyingTitle": "Vérification du domaine...",
+    "domainVerifying": "Nous vérifions actuellement que le domaine du site Web est correct. Veuillez patienter quelques secondes.",
+    "purposeTitle": "Objectif",
+    "purposeTooltip": "Pourquoi le service a besoin de vos informations et comment elles seront utilisées.",
+    "usingID": "Utilisation de la pièce d'identité",
+    "selectID": "Sélectionner une pièce d'identité",
+    "criteriaNotMet": "Votre pièce d'identité ne répond pas à cette exigence",
+    "criteriaNotMetTitle": "Vous ne répondez pas aux critères",
+    "criteriaNotMetDescription": "Certains critères ne sont pas remplis par votre pièce d'identité",
+    "verifyingSignature": "Vérification de la signature ({{index}}/2)...",
+    "verifyingIntegrity": "Vérification des données de la pièce d'identité...",
+    "verifyingBind": "Liaison des données...",
+    "verifyingAge": "Vérification de l'âge...",
+    "verifyingBirthdate": "Vérification de la date de naissance...",
+    "verifyingDisclose": "Préparation de la divulgation...",
+    "verifyingExclusionIssuingCountry": "Vérification de l'exclusion du pays émetteur...",
+    "verifyingExclusionNationality": "Vérification de l'exclusion de la nationalité...",
+    "verifyingInclusionIssuingCountry": "Vérification de l'inclusion du pays émetteur...",
+    "verifyingInclusionNationality": "Vérification de l'inclusion de la nationalité...",
+    "sendingProof": "Envoi des résultats...",
+    "compressingProof": "Compression de la preuve...",
+    "verifyingExclusionSanctions": "Vérification de l'exclusion des listes de sanctions...",
+    "verifyingFaceMatch": "Vérification de FaceMatch...",
+    "preparingOuterProof": "Préparation de l'étape finale...",
+    "unverified": "Ce site Web n'est pas vérifié"
+  },
+  "accessItemLabel": {
+    "validId": "Vous possédez une pièce d'identité valide",
+    "result": "Résultat",
+    "criteria": "Critères",
+    "yes": "Oui",
+    "no": "Vous <bold>ne répondez pas</bold> aux critères du site Web",
+    "passed": "Réussi",
+    "failed": "Échoué",
+    "birthdate": {
+      "eq": "Êtes-vous né(e) le {{date}} ?",
+      "disclose": "Quelle est votre date de naissance ?",
+      "range": "Êtes-vous né(e) entre le {{min}} et le {{max}} ?",
+      "gt": "Êtes-vous né(e) après le {{date}} ?",
+      "gte": "Êtes-vous né(e) le {{date}} ou après ?",
+      "lt": "Êtes-vous né(e) avant le {{date}} ?",
+      "lte": "Êtes-vous né(e) le {{date}} ou avant ?"
+    },
+    "gender": {
+      "eq": "Êtes-vous {{gender}} ?",
+      "disclose": "Quel est votre sexe ?"
+    },
+    "issuing_country": {
+      "eq": "Votre pièce d'identité est-elle émise par {{country}} ?",
+      "disclose": "Quel est le pays qui a émis votre pièce d'identité ?",
+      "in": "Votre pièce d'identité a-t-elle été émise par l'un des {{countries}} pays ?",
+      "out": "Votre pièce d'identité n'a-t-elle pas été émise par l'un des pays suivants ?"
+    },
+    "nationality": {
+      "eq": "Votre nationalité est-elle {{country}} ?",
+      "disclose": "Quelle est votre nationalité ?",
+      "in": "Êtes-vous citoyen de l'un des pays suivants ?",
+      "out": "Vous n'êtes pas citoyen de l'un des pays suivants ?"
+    },
+    "expiry_date": {
+      "eq": "Votre pièce d'identité est-elle valide jusqu'au {{date}} ?",
+      "disclose": "Quelle est la date d'expiration de votre pièce d'identité ?",
+      "range": "Votre pièce d'identité est-elle valide entre le {{min}} et le {{max}} ?",
+      "gt": "Votre pièce d'identité est-elle valide après le {{date}} ?",
+      "gte": "Votre pièce d'identité est-elle valide le {{date}} ou après ?",
+      "lt": "Votre pièce d'identité est-elle valide jusqu'au {{date}} ?",
+      "lte": "Votre pièce d'identité est-elle valide au moins jusqu'au {{date}} ?"
+    },
+    "age": {
+      "eq": "Avez-vous {{age}} ans ?",
+      "range": "Avez-vous entre {{min}} et {{max}} ans ?",
+      "gt": "Avez-vous plus de {{age}} ans ?",
+      "gte": "Avez-vous {{age}} ans ou plus ?",
+      "lt": "Avez-vous moins de {{age}} ans ?",
+      "lte": "Avez-vous {{age}} ans ou moins ?",
+      "disclose": "Quel est votre âge exact ?"
+    },
+    "document_number": {
+      "eq": "Votre numéro de document est-il {{number}} ?",
+      "disclose": "Quel est votre numéro de document ?"
+    },
+    "document_type": {
+      "eq": "Votre pièce d'identité est-elle un(e) {{type}} ?",
+      "disclose": "Quel type de pièce d'identité avez-vous ?"
+    },
+    "fullname": {
+      "eq": "Votre nom complet est-il {{name}} ?",
+      "disclose": "Quel est votre nom complet ?"
+    },
+    "firstname": {
+      "eq": "Votre prénom est-il {{name}} ?",
+      "disclose": "Quel est votre prénom ?"
+    },
+    "lastname": {
+      "eq": "Votre nom de famille est-il {{name}} ?",
+      "disclose": "Quel est votre nom de famille ?"
+    },
+    "bind": {
+      "user_address": "Liaison de votre wallet à cette vérification",
+      "chain": "Liaison à une blockchain spécifique",
+      "custom_data": "Liaison de données à cette vérification"
+    },
+    "sanctions": {
+      "question": "Êtes-vous inscrit sur des listes de sanctions des pays ou autorités sélectionnés ?"
+    },
+    "facematch": "Êtes-vous la personne sur votre pièce d'identité ?"
+  },
+  "accessItemDescription": {
+    "validId": "Rien d'autre ne sera révélé",
+    "validId_past": "Rien d'autre n'a été révélé",
+    "yes": "Oui",
+    "birthdate": {
+      "eq": "Votre date de naissance sera révélée.",
+      "eq_past": "Votre date de naissance a été révélée",
+      "disclose": "Votre date de naissance sera révélée.",
+      "disclose_past": "Votre date de naissance a été révélée",
+      "range": "Seul <bold>Oui</bold> sera révélé, mais pas votre date de naissance réelle.",
+      "range_past": "Seul <bold>Oui</bold> a été révélé, mais pas votre date de naissance réelle",
+      "gt": "Seul <bold>Oui</bold> sera révélé, mais pas votre date de naissance réelle.",
+      "gt_past": "Seul <bold>Oui</bold> a été révélé, mais pas votre date de naissance réelle",
+      "gte": "Seul <bold>Oui</bold> sera révélé, mais pas votre date de naissance réelle.",
+      "gte_past": "Seul <bold>Oui</bold> a été révélé, mais pas votre date de naissance réelle",
+      "lt": "Seul <bold>Oui</bold> sera révélé, mais pas votre date de naissance réelle.",
+      "lt_past": "Seul <bold>Oui</bold> a été révélé, mais pas votre date de naissance réelle",
+      "lte": "Seul <bold>Oui</bold> sera révélé, mais pas votre date de naissance réelle.",
+      "lte_past": "Seul <bold>Oui</bold> a été révélé, mais pas votre date de naissance réelle"
+    },
+    "gender": {
+      "eq": "Votre sexe sera révélé.",
+      "eq_past": "Votre sexe a été révélé",
+      "disclose": "Votre sexe sera révélé.",
+      "disclose_past": "Votre sexe a été révélé"
+    },
+    "issuing_country": {
+      "eq": "Le pays qui a émis votre pièce d'identité sera révélé.",
+      "eq_past": "Le pays qui a émis votre pièce d'identité a été révélé",
+      "disclose": "Le pays qui a émis votre pièce d'identité sera révélé.",
+      "disclose_past": "Le pays qui a émis votre pièce d'identité a été révélé",
+      "in": "Seul <bold>Oui</bold> sera révélé, mais pas votre pays émetteur réel.\n\n<bold>Liste des pays:</bold>\n{{countries}}",
+      "in_past": "Seul <bold>Oui</bold> a été révélé, mais pas votre pays émetteur réel\n\n<bold>Liste des pays:</bold>\n{{countries}}",
+      "out": "Seul <bold>Oui</bold> sera révélé, mais pas votre pays émetteur réel.\n\n<bold>Liste des pays:</bold>\n{{countries}}",
+      "out_past": "Seul <bold>Oui</bold> a été révélé, mais pas votre pays émetteur réel\n\n<bold>Liste des pays:</bold>\n{{countries}}"
+    },
+    "nationality": {
+      "eq": "Votre nationalité sera révélée.",
+      "eq_past": "Votre nationalité a été révélée",
+      "disclose": "Votre nationalité sera révélée.",
+      "disclose_past": "Votre nationalité a été révélée",
+      "in": "Seul <bold>Oui</bold> sera révélé, mais pas votre nationalité.\n\n<bold>Liste des pays:</bold>\n{{countries}}",
+      "in_past": "Seul <bold>Oui</bold> a été révélé, mais pas votre nationalité\n\n<bold>Liste des pays:</bold>\n{{countries}}",
+      "out": "Seul <bold>Oui</bold> sera révélé, mais pas votre nationalité.\n\n<bold>Liste des pays:</bold>\n{{countries}}",
+      "out_past": "Seul <bold>Oui</bold> a été révélé, mais pas votre nationalité\n\n<bold>Liste des pays:</bold>\n{{countries}}"
+    },
+    "expiry_date": {
+      "eq": "La date d'expiration de votre pièce d'identité sera révélée.",
+      "eq_past": "La date d'expiration de votre pièce d'identité a été révélée",
+      "disclose": "La date d'expiration de votre pièce d'identité sera révélée.",
+      "disclose_past": "La date d'expiration de votre pièce d'identité a été révélée",
+      "range": "Seul <bold>Oui</bold> sera révélé, mais pas la date d'expiration.",
+      "range_past": "Seul <bold>Oui</bold> a été révélé, mais pas la date d'expiration.",
+      "gt": "Seul <bold>Oui</bold> sera révélé, mais pas la date d'expiration.",
+      "gt_past": "Seul <bold>Oui</bold> a été révélé, mais pas la date d'expiration",
+      "gte": "Seul <bold>Oui</bold> sera révélé, mais pas la date d'expiration.",
+      "gte_past": "Seul <bold>Oui</bold> a été révélé, mais pas la date d'expiration.",
+      "lt": "Seul <bold>Oui</bold> sera révélé, mais pas la date d'expiration.",
+      "lt_past": "Seul <bold>Oui</bold> a été révélé, mais pas la date d'expiration",
+      "lte": "Seul <bold>Oui</bold> sera révélé, mais pas la date d'expiration",
+      "lte_past": "Seul <bold>Oui</bold> a été révélé, mais pas la date d'expiration"
+    },
+    "age": {
+      "eq": "Votre âge exact sera révélé.",
+      "eq_past": "Votre âge exact a été révélé",
+      "range": "Seul <bold>Oui</bold> sera révélé, mais pas votre âge.",
+      "range_past": "Seul <bold>Oui</bold> a été révélé, mais pas votre âge",
+      "gt": "Seul <bold>Oui</bold> sera révélé, mais pas votre âge.",
+      "gt_past": "Seul <bold>Oui</bold> a été révélé, mais pas votre âge",
+      "gte": "Seul <bold>Oui</bold> sera révélé, mais pas votre âge.",
+      "gte_past": "Seul <bold>Oui</bold> a été révélé, mais pas votre âge",
+      "lt": "Seul <bold>Oui</bold> sera révélé, mais pas votre âge.",
+      "lt_past": "Seul <bold>Oui</bold> a été révélé, mais pas votre âge",
+      "lte": "Seul <bold>Oui</bold> sera révélé, mais pas votre âge.",
+      "lte_past": "Seul <bold>Oui</bold> a été révélé, mais pas votre âge.",
+      "disclose": "Votre âge exact sera révélé.",
+      "disclose_past": "Votre âge exact a été révélé."
+    },
+    "document_number": {
+      "eq": "Votre numéro de document sera révélé.",
+      "eq_past": "Votre numéro de document a été révélé",
+      "disclose": "Votre numéro de document sera révélé.",
+      "disclose_past": "Votre numéro de document a été révélé"
+    },
+    "document_type": {
+      "eq": "Le type de votre document sera révélé (Passeport, Carte d'identité ou Permis de résidence).",
+      "eq_past": "Le type de votre document a été révélé (Passeport, Carte d'identité ou Permis de résidence).",
+      "disclose": "Le type de votre document sera révélé (Passeport, Carte d'identité ou Permis de résidence).",
+      "disclose_past": "Le type de votre document a été révélé (Passeport, Carte d'identité ou Permis de résidence)."
+    },
+    "fullname": {
+      "eq": "Votre nom officiel complet sera révélé.",
+      "eq_past": "Votre nom officiel complet a été révélé",
+      "disclose": "Votre nom officiel complet sera révélé.",
+      "disclose_past": "Votre nom officiel complet a été révélé"
+    },
+    "firstname": {
+      "eq": "Votre prénom sera révélé.",
+      "eq_past": "Votre prénom a été révélé",
+      "disclose": "Seul votre prénom sera révélé (sans votre deuxième prénom ou prénoms secondaires).",
+      "disclose_past": "Seul votre prénom a été révélé (sans votre deuxième prénom ou prénoms secondaires)"
+    },
+    "lastname": {
+      "eq": "Votre nom de famille sera révélé.",
+      "eq_past": "Votre nom de famille a été révélé",
+      "disclose": "Seul votre nom de famille sera révélé (sans vos prénoms).",
+      "disclose_past": "Seul votre nom de famille a été révélé (sans vos prénoms)"
+    },
+    "bind": {
+      "user_address": "Votre wallet sera lié à cette vérification.",
+      "user_address_past": "Votre wallet a été lié à cette vérification.",
+      "chain": "La vérification sera liée à cette blockchain.",
+      "chain_past": "La vérification a été liée à cette blockchain.",
+      "custom_data": "La vérification sera liée aux données suivantes : {{data}}.",
+      "custom_data_past": "La vérification a été liée aux données suivantes : {{data}}."
+    },
+    "sanctions": {
+      "bool": "Seul <bold>Oui</bold> sera révélé, aucune donnée personnelle n'est partagée.",
+      "bool_past": "Seul <bold>Oui</bold> a été révélé, aucune donnée personnelle n'a été partagée.",
+      "all": "Seul <bold>Oui</bold> sera révélé, aucune donnée personnelle n'est partagée.\n\n<bold>Vérification privée</bold> contre toutes les listes de sanctions disponibles via l'API OpenSanctions qui couvre les listes de sanctions des États-Unis, de l'UE, du Royaume-Uni, de la Suisse et d'autres pays",
+      "all_past": "Seul <bold>Oui</bold> a été révélé, aucune donnée personnelle n'a été partagée.\n\n<bold>Vérification privée</bold> contre toutes les listes de sanctions disponibles via l'API OpenSanctions qui couvre les listes de sanctions des États-Unis, de l'UE, du Royaume-Uni, de la Suisse et d'autres pays",
+      "countries": "Seul <bold>Oui</bold> sera révélé, aucune donnée personnelle n'est partagée.\n\n<bold>Vérification privée</bold> contre les listes de sanctions des pays suivants : {{countries}}",
+      "countries_past": "Seul <bold>Oui</bold> a été révélé, aucune donnée personnelle n'a été partagée.\n\n<bold>Vérification privée</bold> contre les listes de sanctions des pays suivants : {{countries}}"
+    },
+    "facematch": "Private FaceMatch effectue une vérification de liveness et compare votre visage à la photo sur votre pièce d'identité.",
+    "facematch_past": "Private FaceMatch a effectué une vérification de liveness et a comparé votre visage à la photo sur votre pièce d'identité."
+  },
+  "eventPage": {
+    "title": {
+      "mrz": "Scan réussi",
+      "nfc": "Scan de la puce réussi",
+      "nfcFailed": "Échec du scan de la puce",
+      "notSupported": "Pièce d'identité non supportée",
+      "expiredId": "Pièce d'identité expirée",
+      "somethingWrong": "Une erreur s'est produite",
+      "lostConnection": "Connexion Internet perdue",
+      "deleteId": "La pièce d'identité sélectionnée a été supprimée",
+      "deleteWrong": "Oups ! Une erreur s'est produite, réessayez plus tard",
+      "verified": "Vous êtes vérifié !",
+      "notSuccessful": "Vérification non réussie",
+      "chipNotDetected": "Puce non détectable",
+      "docNotSupported": "Document non supporté"
+    },
+    "description": {
+      "success": "Nous avons correctement lu les informations de votre pièce d'identité. Vous pouvez maintenant continuer la vérification.",
+      "mrz": "Votre pièce d'identité a été scannée avec succès et est prête à être utilisée pour la vérification.",
+      "nfc": "La puce de votre pièce d'identité a été scannée avec succès.",
+      "nfcFailed": "Nous n'avons pas pu scanner la puce de votre pièce d'identité. Veuillez réessayer.",
+      "notSupported": "Votre pièce d'identité n'est pas encore prise en charge par ZKPassport.",
+      "expiredId": "Votre pièce d'identité a expiré. Veuillez utiliser une pièce d'identité valide.",
+      "somethingWrong": "Une erreur s'est produite. Veuillez réessayer.",
+      "lostConnection": "La connexion Internet a été perdue. Veuillez vérifier votre connexion et réessayer.",
+      "deleteId": "Votre pièce d'identité a été supprimée de votre appareil.",
+      "deleteWrong": "Une erreur s'est produite lors de la suppression de votre pièce d'identité. Veuillez réessayer.",
+      "verified": "Vérification réussie !",
+      "notSuccessful": "Votre vérification n'a pas réussi. Veuillez réessayer.",
+      "chipNotDetected": "Nous n'avons pas pu détecter la puce NFC de votre pièce d'identité. Veuillez vous assurer que votre pièce d'identité a une puce NFC."
+    },
+    "secondaryText": {
+      "somethingWrong": "Veuillez <bold>redémarrer l'application</bold> afin de continuer.",
+      "lostConnection": "Veuillez <bold>vérifier votre connexion</bold> et réessayer.",
+      "useAnotherID": "Veuillez utiliser une autre pièce d'identité si disponible",
+      "contactServiceProvider": "Si vous pensez que c'est une erreur, veuillez contacter le service pour obtenir de l'aide."
+    },
+    "actions": {
+      "returnToHome": "Retour à l'accueil",
+      "scanAnother": "Scanner une autre pièce d'identité",
+      "goBack": "Retour",
+      "tryAgain": "Réessayer",
+      "contactSupport": "Contacter le support"
+    }
+  },
+  "WhyScanId": {
+    "title": "Pourquoi scanner votre pièce d'identité ?",
+    "description": "Scanner votre pièce d'identité permet à ZKPassport de confirmer qu'elle est authentique, afin que vous puissiez prouver des faits vous concernant sans jamais exposer de détails personnels.",
+    "subtitle": "Voici comment cela fonctionne :",
+    "steps": {
+      "1": {
+        "text": "Les données de votre pièce d'identité restent chiffrées et stockées sur votre appareil"
+      },
+      "2": {
+        "text": "Vous utilisez Face ID/Touch ID pour les protéger"
+      },
+      "3": {
+        "text": "Vous pouvez prouver des faits vous concernant (comme avoir plus de 18 ans), sans révéler les détails de votre pièce d'identité"
+      }
+    },
+    "infoFrame": {
+      "text": "Votre vie privée avant tout : <bold>vos données restent sur votre appareil. Rien n'est partagé sans votre permission.</bold>"
+    }
+  },
+  "facematch": {
+    "title": "Maintenez votre visage dans le cadre",
+    "titleNoFaceDetected": "Positionnez votre visage dans le cadre",
+    "nofaceDetected": "Positionnez votre visage en face de la caméra. Puis déplacez votre tête en cercle afin de montrer tous les angles de votre visage.",
+    "instruction_center": "Regardez droit devant la caméra",
+    "hold_still": "Restez immobile",
+    "look_left": "Déplacez votre tête lentement <bold>vers la gauche</bold>",
+    "look_right": "Déplacez votre tête lentement <bold>vers la droite</bold>",
+    "look_up": "Déplacez votre tête lentement <bold>vers le haut</bold>",
+    "look_down": "Déplacez votre tête lentement <bold>vers le bas</bold>",
+    "look_less_left": "Déplacez votre tête moins à gauche",
+    "look_less_right": "Déplacez votre tête moins à droite",
+    "look_less_up": "Déplacez votre tête moins en haut",
+    "look_less_down": "Déplacez votre tête moins en bas",
+    "look_further_left": "Déplacez votre tête plus à gauche",
+    "look_further_right": "Déplacez votre tête plus à droite",
+    "look_further_up": "Déplacez votre tête plus en haut",
+    "look_further_down": "Déplacez votre tête plus en bas",
+    "move_closer": "Rapprochez-vous",
+    "move_further": "Éloignez-vous",
+    "permissionText": "Nous avons besoin de votre permission pour scanner votre visage",
+    "grantPermission": "Autoriser la caméra",
+    "faceMatchText": "<bold>Private FaceMatch</bold> vérification",
+    "successfullyCompleted": "<bold>Private FaceMatch</bold> vérification terminée avec succès",
+    "facialDataSecure": "Vos données faciales restent en sécurité sur votre appareil.",
+    "generatingAttestation": "En cours de traitement...",
+    "debug": {
+      "leftEye": "Œil G",
+      "rightEye": "Œil D",
+      "nose": "Nez",
+      "leftMouth": "Bouche G",
+      "rightMouth": "Bouche D",
+      "modelInput": "Entrée du modèle",
+      "embedding": "Incorporation :"
+    },
+    "timeout": {
+      "title": "Private FaceMatch a échoué",
+      "description": "Nous n'avons pas pu confirmer que votre visage correspond à la pièce d'identité utilisée pour cette vérification.\n\nVeuillez réessayer et <bold>assurez-vous que la personne faisant la vérification soit bien la même que celle présente sur la pièce d'identité</bold>."
+    }
+  },
+  "history": {
+    "title": "Historique",
+    "viewDetails": "Voir les détails",
+    "idSelected": "Pièce d'identité sélectionnée",
+    "unknown": "Inconnu",
+    "delete": "Supprimer la vérification",
+    "informationShared": "Informations partagées",
+    "noVerificationTitle": "Aucune vérification",
+    "noVerificationDescription": "La prochaine fois que vous passerez une vérification, elle apparaîtra ici dans votre historique.",
+    "loading": "Chargement...",
+    "today": "Aujourd'hui",
+    "yesterday": "Hier"
+  },
+  "modals": {
+    "checkPassport": {
+      "title": {
+        "passport": "Vérifiez votre passeport",
+        "idCard": "Vérifiez votre carte d'identité",
+        "residencePermit": "Vérifiez votre titre de séjour"
+      },
+      "description": {
+        "passport": "Assurez-vous que votre passeport possède le <bold>symbole NFC</bold>, généralement <bold>sur la couverture avant</bold>.",
+        "idCard": "Assurez-vous que votre carte d'identité possède le <bold>symbole NFC</bold>, généralement sur <bold>l'avant ou l'arrière de la carte</bold>.",
+        "residencePermit": "Assurez-vous que votre titre de séjour possède le <bold>symbole NFC</bold>, généralement sur <bold>l'avant ou l'arrière de la carte</bold>."
+      },
+      "yesIHaveIt": "Oui, je le vois",
+      "noIDontHaveIt": "Non, je ne le vois pas"
+    },
+    "deleteID": {
+      "title": "Supprimer la pièce d'identité ?",
+      "description": "La suppression de cette pièce d'identité la retirera de votre appareil ainsi que toutes les vérifications associées. Cette action est irréversible.",
+      "deleteButton": "Supprimer la pièce d'identité",
+      "cancelButton": "Annuler"
+    },
+    "historyFilter": {
+      "title": "Filtres",
+      "resetAll": "Tout réinitialiser",
+      "selectedID": "Pièce d'identité sélectionnée",
+      "noIDsFound": "Aucune pièce d'identité trouvée",
+      "cancel": "Annuler",
+      "apply": "Appliquer",
+      "apply_zero": "Appliquer",
+      "apply_other": "Appliquer ({{count}})"
+    },
+    "incompatibleSdk": {
+      "title": "Version SDK incompatible",
+      "description": "Le service auquel vous essayez de vous connecter utilise la version SDK {{sdkVersion}} alors que cette application supporte les versions {{minVersion}} à {{maxVersion}}. Le service doit être mis à jour vers une version prise en charge.",
+      "disclaimer": "Vous pouvez contacter l'équipe de support du service et leur demander de mettre à jour leur intégration"
+    },
+    "certificateMissing": {
+      "title": "Certificat manquant",
+      "description": "Notre registre de certificats ne supporte pas encore cette pièce d'identité. Vous pouvez nous aider à ajouter le support pour cette pièce d'identité en envoyant un rapport. Aucune donnée sensible ne sera envoyée.",
+      "sendReport": "Envoyer le rapport",
+      "notNow": "Pas maintenant"
+    },
+    "unsupportedId": {
+      "title": "Pièce d'identité non supportée",
+      "description": "Malheureusement, votre pièce d'identité utilise un algorithme de signature que nous ne prenons pas encore en charge."
+    },
+    "errorReport": {
+      "title": "Rapport d'erreur envoyé",
+      "description": "Merci de nous aider à améliorer l'application. Nous utiliserons ces informations pour corriger le problème.",
+      "dismiss": "Fermer"
+    }
+  },
+  "passportView": {
+    "yourIDs": "Pièces d'identité",
+    "addID": "Ajouter",
+    "addIDPlus": "Ajouter +",
+    "hideDetails": "Masquer",
+    "showDetails": "Afficher",
+    "options": "Options",
+    "privacyWarning": {
+      "title": "Avertissement de confidentialité",
+      "description": "Une capture d'écran a été détectée. Si quelqu'un vous a demandé d'envoyer une photo des détails de votre pièce d'identité, ne le faites pas.",
+      "understood": "Compris"
+    },
+    "documentType": {
+      "passport": "Passeport",
+      "idCard": "Carte d'identité",
+      "residencePermit": "Titre de séjour"
+    },
+    "idIsGenuine": "Authentique",
+    "name": "Nom",
+    "nationality": "Nationalité",
+    "dateOfBirth": "Date de naissance",
+    "gender": "Sexe",
+    "male": "Masculin",
+    "female": "Féminin",
+    "passportNumber": "Numéro",
+    "passportExpiry": "Date d'expiration",
+    "unsupportedMessage": "Cette pièce d'identité ne peut pas encore être utilisée pour la vérification car le certificat du pays n'est pas disponible.",
+    "expiredMessage": "Cette pièce d'identité est expirée et ne peut pas être utilisée pour la vérification."
+  },
+  "scanning": {
+    "back": "Retour",
+    "chooseIDType": {
+      "title": "Choisissez un type de pièce d'identité",
+      "passport": {
+        "title": "Passeport",
+        "description": "Livret émis par le gouvernement pour vous identifier à l'étranger"
+      },
+      "idCard": {
+        "title": "Carte d'identité",
+        "description": "Carte utilisée pour les vérifications d'identité nationales ou régionales"
+      },
+      "residencePermit": {
+        "title": "Titre de séjour",
+        "description": "Document/carte qui vérifie la résidence d'un ressortissant étranger"
+      }
+    },
+    "prepareID": {
+      "title": "Scannez la puce",
+      "passport": "Ouvrez votre <bold>passeport et déposez-le à plat</bold> sur une surface. Lorsque vous êtes prêt, appuyez sur <em>[Commencer le scan]</em> et déplacez lentement votre téléphone sur votre passeport comme indiqué ci-dessus.",
+      "idCard": "Placez votre <bold>carte d'identité face visible</bold> sur une surface plate. Lorsque vous êtes prêt, appuyez sur <em>[Commencer le scan]</em> et déplacez lentement votre téléphone sur votre carte d'identité comme indiqué ci-dessus.",
+      "residencePermit": "Placez votre <bold>titre de séjour face visible</bold> sur une surface plate. Lorsque vous êtes prêt, appuyez sur <em>[Commencer le scan]</em> et déplacez lentement votre téléphone sur votre carte d'identité comme indiqué ci-dessus.",
+      "startScan": "Commencer le scan"
+    },
+    "getReadyToScan": {
+      "title": "Préparez-vous à scanner",
+      "passport": {
+        "name": "Passeport",
+        "description": "Ouvrez votre passeport à la page photo et placez-le à plat, face visible, sur une surface plane."
+      },
+      "idCard": {
+        "name": "Carte d'identité",
+        "description": "Placez le dos de votre carte d'identité à plat, face visible, sur une surface plane avec un bon éclairage."
+      },
+      "residencePermit": {
+        "name": "Titre de séjour",
+        "description": "Placez le dos de votre titre de séjour à plat, face visible, sur une surface plane avec un bon éclairage."
+      },
+      "steps": {
+        "nfc": " avec NFC",
+        "scan": "Scanner avec l'appareil photo"
+      },
+      "flipID": "Retournez la pièce d'identité",
+      "startScan": "Commencer le scan",
+      "enterManually": "Saisir les détails manuellement"
+    },
+    "manualMRZEntry": "Saisie manuelle de la MRZ",
+    "areYourDetailsCorrect": "Vos détails sont-ils corrects ?",
+    "editMRZSubtitle": "Vérifiez et modifiez si nécessaire",
+    "documentNumber": "Numéro de document",
+    "dateOfBirth": "Date de naissance",
+    "dateOfExpiry": "Date d'expiration",
+    "confirmDetails": "Confirmer les détails",
+    "confirm": "Confirmer",
+    "cancel": "Annuler",
+    "errors": {
+      "fieldRequired": "Ce champ est obligatoire",
+      "documentNumberLength": "Le numéro de document doit contenir 9 à 12 caractères",
+      "alphanumericOnly": "Seules les lettres et les chiffres sont autorisés",
+      "numbersOnly": "Seuls les chiffres sont autorisés",
+      "dobFuture": "La date de naissance ne peut pas être dans le futur",
+      "expiryPast": "La date d'expiration doit être dans le futur"
+    },
+    "nfcRetry": {
+      "attempt1": {
+        "title": "Scan incomplet",
+        "description": "Nous n'avons pas encore obtenu tous les détails. Gardez votre téléphone immobile après la vibration pour terminer le scan."
+      },
+      "attempt2": {
+        "title": "Impossible de terminer le scan",
+        "description": "<bold>Essayez de retirer la coque de votre téléphone</bold> et gardez le téléphone immobile une fois que vous ressentez une vibration."
+      },
+      "attempt3": {
+        "title": "Impossible de terminer le scan",
+        "description": "Assurez-vous que votre passeport est valide et que la puce NFC n'est pas endommagée."
+      }
+    },
+    "nfcTimeout": {
+      "attempt1": {
+        "title": "Impossible de détecter la puce",
+        "description": "<bold>Essayez de retirer la coque de votre téléphone</bold>, puis ouvrez complètement votre passeport et gardez votre téléphone immobile une fois que vous ressentez une vibration."
+      },
+      "attempt2": {
+        "title": "Impossible de détecter la puce",
+        "description": "Assurez-vous que votre pièce d'identité est valide et que la puce NFC n'est pas endommagée."
+      },
+      "attempt3": {
+        "title": "Impossible de détecter la puce",
+        "description": "Assurez-vous que votre pièce d'identité a le symbole NFC."
+      }
+    },
+    "modals": {
+      "duplicate": {
+        "title": "Pièce d'identité déjà scannée",
+        "description": "Cette pièce d'identité est déjà liée à votre compte. Pour continuer, scannez une autre pièce d'identité valide ou utilisez celle déjà liée.",
+        "chooseAnother": "Choisir une autre"
+      },
+      "mrzTimeout": {
+        "title": "Code non détecté",
+        "description": "Veuillez vous assurer que votre pièce d'identité a un code et qu'il est entièrement visible.",
+        "enterManually": "Saisir manuellement"
+      },
+      "nfcDisabled": {
+        "title": "Activez le NFC pour continuer",
+        "description": "Pour scanner la puce à l'intérieur de votre pièce d'identité, vous devez activer le NFC dans les paramètres de votre téléphone.",
+        "disclaimer": "Cliquez sur le bouton ci-dessous ou allez dans Paramètres > Connexions > NFC et activez-le, puis revenez à l'application.",
+        "enableNFC": "Activer le NFC"
+      },
+      "nfcReady": {
+        "title": "Vous êtes prêt à continuer !",
+        "description": "Placez votre téléphone à plat contre votre document pour commencer le scan.",
+        "startScan": "Commencer le scan"
+      },
+      "mrzScanFailed": {
+        "title": "Échec du scan MRZ",
+        "description": "Un problème est survenu lors de la lecture des données MRZ de votre document.",
+        "sendReport": "Envoyer le rapport",
+        "enterManually": "Saisir manuellement"
+      },
+      "nfcSystemFailure": {
+        "title": "Le NFC ne fonctionne pas sur votre appareil",
+        "description": "Le lecteur NFC de votre téléphone ne répond plus, l'application ne peut donc pas continuer le scan.\n\nSi le problème persiste, <bold>veuillez redémarrer votre appareil et réessayer.</bold>"
+      },
+      "wifiInterference": {
+        "title": "Connexion instable",
+        "description": "Nous avons des difficultés à maintenir une connexion stable avec la puce de votre document. Cela peut parfois être causé par des interférences WiFi.\n\n<bold>Essayez de désactiver le WiFi</bold> dans les paramètres de votre appareil et scannez à nouveau."
+      }
+    },
+    "tryAgain": "Réessayer",
+    "howToCheck": "Comment vérifier le symbole NFC ?",
+    "attemptOf": "Tentative {{attempt}} sur {{max}}"
+  },
+  "qrScanner": {
+    "lightOn": "Flash allumé",
+    "lightOff": "Flash éteint"
+  },
+  "position_qr_code": "Positionnez le QR code dans le cadre",
+  "qr_scan_success": "QR code scanné avec succès",
+  "invalid_qr_code": "Format de QR code invalide",
+  "requesting_camera_permission": "Demande d'accès à la caméra...",
+  "camera_permission_denied": "L'accès à la caméra est nécessaire pour scanner les QR codes. Veuillez l'activer dans les paramètres de votre appareil pour continuer.",
+  "settings": {
+    "settings": {
+      "back": "Retour",
+      "title": "Paramètres"
+    },
+    "developerOptions": {
+      "back": "Retour",
+      "title": "Options développeurs",
+      "enableDevMode": "Activer le mode développeur",
+      "enableDevModeDescription": "Cela vous permet de contourner le scan du passeport et d'utiliser des données de test.",
+      "loading": "Chargement des passeports de test...",
+      "deleting": "Suppression des passeports de test..."
+    },
+    "whatsNext": {
+      "back": "Retour",
+      "title": "Que faire avec ma pièce d'identité ?",
+      "tryDemo": "Essayer la démo",
+      "steps": {
+        "1": {
+          "title": "Démarrer une vérification",
+          "description": "Lorsqu'un site Web vous demande de faire une vérification (par exemple, âge, nationalité, nom), scannez le QR code ou cliquez sur le bouton pour commencer."
+        },
+        "2": {
+          "title": "Examiner et approuver",
+          "description": "Consultez ce que le site Web demande exactement, puis confirmez et partagez uniquement ce qui est nécessaire."
+        },
+        "3": {
+          "title": "Essayez la démo :",
+          "description": "Si vous voulez l'essayer maintenant, consultez notre démo."
+        }
+      }
+    },
+    "security": {
+      "back": "Retour",
+      "title": "Sécurité",
+      "requireAuth": "Authentification requise",
+      "requireAuthDescription": "<bold>Lors de la vérification</bold>, vous devrez vous authentifier avec votre mot de passe, Face ID ou empreinte digitale avant de vérifier."
+    },
+    "technicalInfo": {
+      "back": "Retour",
+      "faceMatchDebug": "Débogage de la vérification faciale",
+      "faceMatchDebugDescription": "Activer le mode débogage de la vérification faciale",
+      "copyPhotoDG2": "Copier la photo (DG2)",
+      "submitAnonymousMetadata": "Envoyer des métadonnées anonymes",
+      "submitMetadataTitle": "Envoyer des métadonnées anonymes",
+      "submitMetadataDescription": "Cela enverra des informations techniques anonymes sur votre pièce d'identité pour aider à améliorer le service. Aucune information personnelle ne sera incluse.",
+      "submitMetadataButton": "Envoyer des métadonnées anonymes",
+      "cancel": "Annuler"
+    },
+    "debugInfo": {
+      "title": "Informations de débogage",
+      "passportSection": "Informations de la pièce d'identité",
+      "technicalSection": "Détails techniques",
+      "passportTechnicalSection": "Informations techniques du passeport",
+      "idTechnicalSection": "Informations techniques de la pièce d'identité",
+      "systemSection": "Informations système",
+      "cscSection": "Certificat de signature du pays",
+      "actions": "Actions",
+      "copied": "Copié",
+      "copiedToClipboard": "Données copiées dans le presse-papiers",
+      "ldsVersion": "Version LDS",
+      "cmsVersion": "Version CMS",
+      "dscSigAlg": "Alg. de signature DSC",
+      "sodSigAlg": "Alg. de signature SOD",
+      "sodRsaExponent": "Exposant RSA SOD",
+      "sodRsaModulus": "Modulo RSA SOD",
+      "sodCurve": "Courbe SOD",
+      "eContentHashAlg": "Alg. de hachage eContent",
+      "signedAttrHashAlg": "Alg. de hachage SignedAttr",
+      "eContentLen": "Longueur eContent",
+      "signedAttrLen": "Longueur SignedAttr",
+      "dscTbsCertificateLen": "Longueur du certificat TBS DSC",
+      "systemDate": "Date du système",
+      "dataGroups": "Groupes de données",
+      "phone": "Téléphone",
+      "os": "OS",
+      "app": "Application",
+      "ram": "RAM",
+      "copyDG1": "Copier DG1",
+      "copySOD": "Copier SOD",
+      "copyDG2Image": "Copier DG2 (Image)",
+      "copyDG2Base64": "Copier DG2 (Base64)",
+      "copySubjectKeyId": "Copier l'ID de clé du sujet",
+      "imageCopied": "L'image a été copiée dans votre presse-papiers",
+      "somethingWrongWithImage": "Il y a un problème avec le format de l'image. Son code brute (en base64) a été copiée à la place.",
+      "submitting": "Envoi en cours...",
+      "submitAnonymousMetadata": "Envoyer des métadonnées anonymes",
+      "success": "Vos métadonnées ont été envoyées avec succès. Merci de nous aider à améliorer l'application !",
+      "error": "Une erreur s'est produite lors de l'envoi de vos métadonnées. Veuillez réessayer plus tard.",
+      "loadingCsc": "Chargement du CSC...",
+      "noCscFound": "Aucun CSC trouvé pour cette pièce d'identité",
+      "cscCountry": "Pays",
+      "cscSignatureAlgorithm": "Algorithme de signature",
+      "cscHashAlgorithm": "Algorithme de hachage",
+      "cscKeyType": "Type de clé publique",
+      "cscKeySize": "Taille de clé",
+      "cscExponent": "Exposant",
+      "cscCurve": "Courbe",
+      "cscValidFrom": "Valide à partir de",
+      "cscValidTo": "Valide jusqu'à",
+      "cscSubjectKey": "ID de clé du sujet",
+      "cscAuthKey": "ID de clé d'autorité",
+      "includeSignerInfo": "Inclure les informations du signataire",
+      "moreSensitive": "Plus sensible",
+      "confirmMetadata": "Envoyer des métadonnées anonymes",
+      "submit": "Envoyer",
+      "signerInfoWarning": "Les informations du signataire contiennent plus de détails techniques sur la signature de votre pièce d'identité.",
+      "metadataDescription": "Cela enverra des informations techniques anonymes sur votre pièce d'identité pour aider à améliorer le service. Aucune information personnelle ne sera incluse.",
+      "helpImprove": "Aidez-nous à améliorer ZKPassport",
+      "errorReporting": "Rapport d'événements",
+      "errorReportingDescription": "Envoyer des rapports de réussite et d'échec pour aider à améliorer l'application",
+      "clearFaceMatchCache": "Effacer le cache de la vérification faciale",
+      "faceMatchCacheCleared": "Cache de la vérification faciale effacé",
+      "errorClearingFaceMatchCache": "Erreur lors de l'effacement du cache de la vérification faciale",
+      "copyDeviceUuid": "Copier l'ID de l'appareil",
+      "deviceUuidNotFound": "ID de l'appareil introuvable"
+    },
+    "options": {
+      "back": "Retour",
+      "title": "Options",
+      "deleteID": "Supprimer la pièce d'identité",
+      "technicalInfo": "Informations techniques",
+      "help": "Que faire avec ma pièce d'identité ?",
+      "clearCache": "Effacer le cache",
+      "eventReporting": "Rapport d'événements",
+      "eventReportingDescription": "Envoyer des rapports de réussite et d'échec pour aider à améliorer l'application",
+      "clearCacheTitle": "Effacer le cache",
+      "clearCacheDescription": "Êtes-vous sûr de vouloir effacer le cache ?",
+      "clearCacheButton": "Effacer le cache",
+      "notNow": "Pas maintenant",
+      "developerOptions": "Options développeurs",
+      "security": "Sécurité",
+      "aboutZKPassport": "À propos de ZKPassport",
+      "version": "Version de l'application"
+    }
+  },
+  "permissions": {
+    "cameraTitle": "Autorisation de caméra requise",
+    "cameraMessage": "Nous avons besoin d'accéder à votre caméra pour scanner les QR codes et la MRZ de votre pièce d'identité. Veuillez activer l'accès à la caméra dans les paramètres de votre appareil.",
+    "biometricTitle": "Authentification biométrique",
+    "biometricNotAvailable": "L'authentification biométrique n'est pas disponible sur cet appareil.",
+    "biometricNotEnrolled": "Veuillez configurer l'authentification biométrique (comme Face ID ou Touch ID) dans les paramètres de votre appareil pour protéger les données de votre pièce d'identité.",
+    "biometricPrompt": "Authentifiez-vous pour continuer",
+    "biometricFallback": "Utiliser le code de l'appareil",
+    "biometricWarning": "Votre appareil prend en charge l'authentification biométrique mais vous ne l'avez pas activée. Vous pouvez continuer à utiliser l'application sans authentification biométrique, mais nous vous recommandons de l'activer pour une meilleure sécurité."
+  },
+  "screenshot": {
+    "privacyWarningTitle": "Avertissement de confidentialité",
+    "privacyWarningMessage": "Une capture d'écran a été détectée. Si quelqu'un vous a demandé d'envoyer une photo des détails de votre pièce d'identité, ne le faites pas.",
+    "understood": "Compris"
+  },
+  "errors": {
+    "proofGenerationError": "Erreur de génération de preuve",
+    "oldUnsupportedZKRPassport": "Données de test obsolètes",
+    "oldUnsupportedZKRPassportDescription": "Vos données de test sont obsolètes et ne sont plus prises en charge. Veuillez recharger les passeports de test.",
+    "cscNotFound": "Certificat non trouvé",
+    "unsupportedPassport": "Pièce d'identité non supportée",
+    "cscNotFoundSendReport": "Envoyer le rapport",
+    "cscNotFoundDescription": "Notre registre de certificats ne prend actuellement pas en charge cette pièce d'identité. Vous pouvez nous aider à ajouter le support pour cette pièce d'identité en envoyant un rapport. Aucune donnée sensible ne sera envoyée.",
+    "unsupportedPassportDescription": "Malheureusement, votre pièce d'identité utilise un algorithme de signature que nous ne prenons pas encore en charge.",
+    "documentNumberRequired": "Le numéro de document est requis",
+    "dateOfBirthRequired": "La date de naissance est requise",
+    "invalidDateFormat": "Format de date invalide",
+    "invalidDate": "Date invalide",
+    "dateOfExpiryRequired": "La date d'expiration est requise",
+    "facematch": {
+      "appAttestNotSupported": "L'attestation de l'application n'est pas prise en charge sur cet appareil"
+    }
+  },
+  "errorTitle": "Erreur inattendue",
+  "errorMessage": "Une erreur inattendue s'est produite. L'application doit redémarrer.",
+  "restart": "Redémarrer",
+  "memoryWarningTitle": "Avertissement de mémoire faible",
+  "memoryWarning": "Votre appareil pourrait ne pas avoir assez de mémoire pour générer les preuves. Cela pourrait provoquer un crash de l'application. Voulez-vous quand même continuer ?",
+  "error": "Erreur"
+}

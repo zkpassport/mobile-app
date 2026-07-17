@@ -1,0 +1,41 @@
+<resources>
+  <string name="app_name">ZKPassport</string>
+  <string name="expo_splash_screen_resize_mode" translatable="false">contain</string>
+  <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
+  <string name="expo_system_ui_user_interface_style" translatable="false">automatic</string>
+  <string name="permission_camera_rationale">Camera permission is required to scan documents.</string>
+  <string name="mrz_instruction_initial">Place your MRZ in the frame</string>
+  <string name="mrz_instruction_hold_still">Hold still</string>
+  <string name="mrz_instruction_stuck">Try on a dark background (e.g. black table)</string>
+  <string name="mrz_instruction_progress">Verifying… %1$s</string>
+  <string name="mrz_instruction_nearly_there">Nearly there</string>
+  <string name="mrz_instruction_finished">MRZ retrieved</string>
+  <string name="mrz_headline_passport_primary">Photo Page</string>
+  <string name="mrz_headline_passport_secondary">of the Passport</string>
+  <string name="mrz_headline_id_primary">Backside</string>
+  <string name="mrz_headline_id_secondary">of National ID</string>
+  <string name="mrz_headline_residence_primary">Backside</string>
+  <string name="mrz_headline_residence_secondary">of Residence Permit</string>
+  <string name="mrz_success_headline_primary">Details</string>
+  <string name="mrz_success_headline_secondary">retrieved successfully</string>
+  <string name="mrz_torch_warning">Be careful with torch glare</string>
+  <string name="mrz_confirmation_question">Is the MRZ correct?</string>
+  <string name="mrz_confirmation_subtitle">Don\'t worry if your name is slightly wrong</string>
+  <string name="mrz_button_try_again">Try again</string>
+  <string name="mrz_button_confirm">Yes</string>
+  <string name="mrz_button_close">Close</string>
+  <string name="mrz_status_detecting">Align the MRZ with the guide</string>
+  <string name="mrz_status_hold_still">Hold still</string>
+  <string name="mrz_status_scanning">Scanning in progress</string>
+  <string name="mrz_status_cropped_title">Fit the ID</string>
+  <string name="mrz_status_cropped_subtitle">in the frame</string>
+  <string name="mrz_status_error">Something went wrong</string>
+  <string name="mrz_status_timeout">We couldn\'t find the MRZ in time</string>
+  <string name="mrz_status_duplicate">This ID is already saved</string>
+  <string name="mrz_status_success">Scan complete</string>
+  <string name="mrz_status_cropped_indicator">Cropped</string>
+  <string name="mrz_status_error_indicator">Try again</string>
+  <string name="mrz_status_timeout_indicator">Timeout</string>
+  <string name="mrz_status_duplicate_indicator">Duplicate</string>
+  <string name="mrz_status_success_indicator">Success</string>
+</resources>

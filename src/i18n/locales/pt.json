@@ -1,0 +1,945 @@
+{
+  "continue": "Continuar",
+  "close": "Fechar",
+  "returnToApp": "Voltar ao aplicativo",
+  "returnToAppNamed": "Voltar para {{name}}",
+  "loading": "Carregando...",
+  "slideToVerify": "Deslize para verificar",
+  "time": "Horário",
+  "verificationPurpose": "Finalidade da verificação",
+  "purpose": "Finalidade",
+  "refreshApp": "Atualizar App",
+  "chooseAnotherID": "Escolher outro documento",
+  "please": "Por favor",
+  "Back": "Voltar",
+  "scanYourID": "Escaneie seu documento",
+  "developerOptions": "Opções de Desenvolvedor",
+  "devModeDescription": "Isso permite pular a etapa de escaneamento do passaporte e utilizar dados simulados.",
+  "enableDevMode": "Ativar modo desenvolvedor",
+  "cancel": "Cancelar",
+  "confirm": "Confirmar",
+  "confirmDetails": "Confirmar Dados",
+  "ok": "OK",
+  "devModeEnabled": "Modo desenvolvedor ativado",
+  "mockPassportsLoadedMessage": "Passaportes simulados carregados com sucesso",
+  "tryAgain": "Tentar novamente",
+  "go_back": "Voltar",
+  "dismiss": "Dispensar",
+  "restartApp": "Reiniciar App",
+  "somethingWentWrong": "Algo deu errado",
+  "sendReport": "Enviar Relatório",
+  "unexpectedErrorDescription": "Ocorreu um erro inesperado. Por favor, tente novamente mais tarde. Ajude-nos a corrigir este problema enviando um relatório.",
+  "expired": "Expirado",
+  "date": "Data",
+  "id": "ID",
+  "country": "País",
+  "success": "Sucesso",
+  "home": {
+    "loadingPassport": "Carregando documento...",
+    "noID": "Nenhum Documento Encontrado",
+    "scanIDFirst": "Por favor, escaneie seu documento primeiro para continuar."
+  },
+  "tabs": {
+    "ids": "Documentos",
+    "verify": "Verificar",
+    "history": "Histórico"
+  },
+  "homeView": {
+    "tagline": "Verifique sua identidade de forma privada",
+    "whyScanLink": "Porque escanear meu documento?",
+    "scanButton": "Escanear seu documento",
+    "loadIDs": "Carregar Documentos",
+    "errorReportingConsent": {
+      "title": "Ajude a melhorar o ZKPassport",
+      "description": "Ajude-nos a melhorar o app compartilhando relatórios anônimos de falhas.",
+      "disclaimer": "Esses relatórios nunca incluem sua identidade ou dados pessoais, apenas metadados técnicos.",
+      "sendReports": "Enviar relatórios",
+      "notNow": "Agora não"
+    }
+  },
+  "nfcReading": {
+    "readyToScan": "Pronto para escanear",
+    "holdPhone": "Segure o celular contra seu documento.",
+    "readingCommon": "Lendo Dados Comuns...",
+    "readingMRZ": "Lendo Código...",
+    "readingPhoto": "Lendo Foto...",
+    "readingPortrait": "Lendo Retrato...",
+    "readingSignature": "Lendo Assinatura...",
+    "readingSecurityOptions": "Lendo opções de Segurança...",
+    "readingPublicKey": "Lendo Chave Pública...",
+    "readingSecurityData": "Lendo Dados de Segurança...",
+    "authenticating": "Mantenha firme",
+    "authenticationFailed": "Autenticação falhou",
+    "paceFailed": "Autenticação PACE falhou, mudando para BAC",
+    "readingPhotoDetails": "Lendo detalhes da Foto...",
+    "passportReadFailed": "Leitura do documento falhou",
+    "passportScanned": "Documento escaneado com sucesso",
+    "scanning": "Escaneando...",
+    "reading": "Lendo...",
+    "savingPassportDescription": "Por favor, aguarde um momento enquanto seu documento é criptografado e salvo localmente no seu dispositivo.",
+    "savingID": "Salvando Documento",
+    "connectionLost": {
+      "title": "Conexão perdida",
+      "retag1": "Coloque o celular de volta no documento para continuar",
+      "retag2": "Mantenha o celular firme sobre o documento",
+      "retag3": "Última tentativa - segure o celular firmemente sobre o documento",
+      "maxRetries": "Não foi possível reconectar. Por favor, tente novamente."
+    },
+    "tagReconnected": "Reconectado! Continuando escaneamento...",
+    "tagReconnectedTitle": "Reconectado",
+    "wrongTagRetag": "Tag incorreta detectada. Coloque o celular sobre seu documento."
+  },
+  "IDSelectedCard": {
+    "title": "Documento Selecionado",
+    "infoText": "As informações do seu documento são armazenadas localmente no seu celular."
+  },
+  "AccessRequestHeader": {
+    "trustedDomain": "Domínio confiável",
+    "untrustedDomain": "Domínio não confiável, tenha cuidado!"
+  },
+  "LoadingOverlay": {
+    "verification": "<bold>Verificação</bold> em andamento",
+    "pleaseKeepPhoneAwake": "Por favor, mantenha a tela do celular ligada durante este processo"
+  },
+  "onboardingModal": {
+    "startScan": "Iniciar escaneamento",
+    "next": "Próximo",
+    "agreePrefix": "Ao continuar, você aceita os ",
+    "termsLink": "Termos de Serviço",
+    "and": " & a ",
+    "privacyLink": "Política de Privacidade",
+    "title": {
+      "0": "Escaneie uma vez, verifique mais rápido",
+      "1": "Privacidade em primeiro lugar",
+      "2": "O que é compartilhado"
+    },
+    "items": {
+      "0": {
+        "title1": "Escaneamento único do documento",
+        "description1": "Escaneie um documento oficial para armazenar sua identidade de forma privada.",
+        "title2": "Reutilize sem reescanear",
+        "description2": "Verifique em segundos sem escanear seu documento toda vez."
+      },
+      "1": {
+        "title1": "Armazenado no seu dispositivo",
+        "description1": "Seu documento é escaneado e armazenado localmente no seu celular.",
+        "title2": "Não rastreável entre sites",
+        "description2": "Sites não podem correlacionar ou rastrear você entre diferentes serviços."
+      },
+      "2": {
+        "title1": "Revele apenas o necessário",
+        "description1": "O site não descobre quem você é, apenas se você atende aos requisitos.",
+        "title2": "Verificação no dispositivo",
+        "description2": "As verificações são feitas no seu dispositivo, não em um servidor central."
+      }
+    }
+  },
+  "PrivacySummary": {
+    "title": "Resumo de Privacidade",
+    "standard": {
+      "title": "Modo de Privacidade Padrão",
+      "description": "Este modo mantém sua identidade privada do site, mas o identificador poderia ser recriado por alguém que já tenha seus dados do documento, como a autoridade emissora. Oferece boa privacidade, mas não o nível mais alto.",
+      "features": {
+        "notVisibleToWebsite": "Não visível para o site ou ZKPassport",
+        "notLinkableAcrossWebsites": "Não rastreável entre sites",
+        "couldBeRecreated": "Poderia ser recriado por alguém com seus dados do documento",
+        "lowerPrivacy": "Privacidade menor comparada ao modo Privacidade Máxima",
+        "descriptions": {
+          "notVisibleToWebsite": "O site não descobre quem você é, apenas se você atende aos requisitos.",
+          "notLinkableAcrossWebsites": "Sites não podem correlacionar ou rastrear você entre diferentes serviços.",
+          "couldBeRecreated": "A autoridade emissora ou qualquer pessoa com suas informações do documento poderia, em teoria, calcular o mesmo identificador e reconhecê-lo.",
+          "lowerPrivacy": "Protege você dos sites, mas não necessariamente de quem emitiu seu documento."
+        }
+      }
+    },
+    "full": {
+      "title": "Modo de Privacidade Máxima",
+      "description": "Este modo oferece a privacidade mais forte. O identificador usado não pode ser recriado ou vinculado a você por ninguém, nem o site, nem o ZKPassport, nem a autoridade emissora.",
+      "features": {
+        "notLinkableByAnyone": "Não rastreável por ninguém",
+        "notLinkableAcrossWebsites": "Não rastreável entre sites",
+        "cannotBeRecreated": "Não pode ser recriado a partir dos dados do documento",
+        "yourIdentityRemainsFullyPrivate": "Sua identidade permanece totalmente privada",
+        "descriptions": {
+          "notLinkableByAnyone": "Ninguém, nem o site, nem o ZKPassport, nem o governo emissor pode vincular esta prova a você.",
+          "notLinkableAcrossWebsites": "Nem o site, nem o ZKPassport, nem o governo emissor pode vincular esta prova a você.",
+          "cannotBeRecreated": "Mesmo alguém que já tenha os detalhes do seu documento não pode gerar este identificador.",
+          "yourIdentityRemainsFullyPrivate": "Apenas o fato de que você atende aos requisitos do site é revelado. Nada mais."
+        }
+      }
+    }
+  },
+  "UnableToContinue": {
+    "title": "Não é possível continuar",
+    "description": "Você não pode continuar porque não atende aos requisitos. Seus dados permanecerão no seu celular e não serão compartilhados."
+  },
+  "VerificationCriteriaList": {
+    "title": "Informações Solicitadas",
+    "subtitle": "Este site solicitou verificar as seguintes informações:"
+  },
+  "accessRequest": {
+    "privacyLinkText": "Saiba mais sobre privacidade aqui",
+    "title": "Um site está solicitando acesso às suas informações",
+    "verifying": "Verificando...",
+    "keepPhoneAwake": "Por favor, mantenha a tela do celular ligada durante este processo",
+    "done": "Pronto!",
+    "doneDescription": "Você pode voltar ao site agora.",
+    "wouldLikeToProve": "Informações solicitadas",
+    "purpose": "Finalidade: {{purpose}}",
+    "domainNotVerified": "Não conseguimos verificar o domínio do site. Você pode estar enfrentando um problema de conexão ou o site não é confiável.",
+    "domainNotVerifiedTitle": "Domínio não verificado",
+    "domainVerifyingTitle": "Verificando domínio...",
+    "domainVerifying": "Estamos verificando se o domínio do site é o correto. Por favor, aguarde alguns segundos.",
+    "purposeTitle": "Finalidade",
+    "purposeTooltip": "Porque o serviço precisa das suas informações e como elas serão usadas.",
+    "usingID": "Usando documento",
+    "selectID": "Selecionar documento",
+    "criteriaNotMet": "Seu documento não atende a este requisito",
+    "criteriaNotMetTitle": "Você não atende aos critérios",
+    "criteriaNotMetDescription": "Alguns critérios não são atendidos pelo seu documento",
+    "verifyingSignature": "Verificando assinatura ({{index}}/2)...",
+    "verifyingIntegrity": "Verificando dados do documento...",
+    "verifyingBind": "Vinculando dados...",
+    "verifyingAge": "Verificando idade...",
+    "verifyingBirthdate": "Verificando data de nascimento...",
+    "verifyingDisclose": "Preparando divulgação...",
+    "verifyingExclusionIssuingCountry": "Verificando exclusão do país emissor...",
+    "verifyingExclusionNationality": "Verificando exclusão de nacionalidade...",
+    "verifyingInclusionIssuingCountry": "Verificando inclusão do país emissor...",
+    "verifyingInclusionNationality": "Verificando inclusão de nacionalidade...",
+    "sendingProof": "Enviando resultados...",
+    "compressingProof": "Comprimindo prova...",
+    "verifyingExclusionSanctions": "Verificando exclusão de listas de sanções...",
+    "verifyingFaceMatch": "Verificando FaceMatch...",
+    "preparingOuterProof": "Preparando a etapa final...",
+    "unverified": "Este site não é verificado"
+  },
+  "accessItemLabel": {
+    "validId": "Você possui um documento válido",
+    "result": "Resultado",
+    "criteria": "Critérios",
+    "yes": "Sim",
+    "no": "Você <bold>não atende</bold> aos critérios do site",
+    "passed": "Aprovado",
+    "failed": "Reprovado",
+    "birthdate": {
+      "eq": "Você nasceu em {{date}}?",
+      "disclose": "Qual é a sua data de nascimento?",
+      "range": "Você nasceu entre {{min}} e {{max}}?",
+      "gt": "Você nasceu depois de {{date}}?",
+      "gte": "Você nasceu em ou depois de {{date}}?",
+      "lt": "Você nasceu antes de {{date}}?",
+      "lte": "Você nasceu em ou antes de {{date}}?"
+    },
+    "gender": {
+      "eq": "Você é {{gender}}?",
+      "disclose": "Qual é o seu gênero?"
+    },
+    "issuing_country": {
+      "eq": "Seu documento foi emitido por {{country}}?",
+      "disclose": "Qual é o país que emitiu seu documento?",
+      "in": "Seu documento foi emitido por um dos {{countries}} países?",
+      "out": "Seu documento não foi emitido por um dos seguintes países?"
+    },
+    "nationality": {
+      "eq": "Sua nacionalidade é {{country}}?",
+      "disclose": "Qual é a sua nacionalidade?",
+      "in": "Você é cidadão de um dos seguintes países?",
+      "out": "Você não é cidadão de um dos seguintes países?"
+    },
+    "expiry_date": {
+      "eq": "Seu documento é válido até {{date}}?",
+      "disclose": "Qual é a data de validade do seu documento?",
+      "range": "Seu documento é válido entre {{min}} e {{max}}?",
+      "gt": "Seu documento é válido após {{date}}?",
+      "gte": "Seu documento é válido em ou após {{date}}?",
+      "lt": "Seu documento é válido até {{date}}?",
+      "lte": "Seu documento é válido até pelo menos {{date}}?"
+    },
+    "age": {
+      "eq": "Você tem {{age}} anos?",
+      "range": "Você tem entre {{min}} e {{max}} anos?",
+      "gt": "Você tem mais de {{age}} anos?",
+      "gte": "Você tem {{age}} anos ou mais?",
+      "lt": "Você tem menos de {{age}} anos?",
+      "lte": "Você tem {{age}} anos ou menos?",
+      "disclose": "Qual é a sua idade exata?"
+    },
+    "document_number": {
+      "eq": "O número do seu documento é {{number}}?",
+      "disclose": "Qual é o número do seu documento?"
+    },
+    "document_type": {
+      "disclose": "Que tipo de documento você tem?"
+    },
+    "fullname": {
+      "eq": "Seu nome completo é {{name}}?",
+      "disclose": "Qual é o seu nome completo?"
+    },
+    "firstname": {
+      "eq": "Seu primeiro nome é {{name}}?",
+      "disclose": "Qual é o seu primeiro nome?"
+    },
+    "lastname": {
+      "eq": "Seu sobrenome é {{name}}?",
+      "disclose": "Qual é o seu sobrenome?"
+    },
+    "bind": {
+      "user_address": "Vincular sua carteira a esta verificação",
+      "chain": "Anexar a uma blockchain específica",
+      "custom_data": "Anexar dados a esta verificação"
+    },
+    "sanctions": {
+      "question": "Você está listado em alguma lista de sanções dos países ou autoridades selecionados?"
+    },
+    "facematch": "Você é a pessoa na foto do seu documento?"
+  },
+  "accessItemDescription": {
+    "validId": "Nada mais será revelado",
+    "validId_past": "Nada mais foi revelado",
+    "yes": "Sim",
+    "birthdate": {
+      "eq": "Sua data de nascimento será revelada.",
+      "eq_past": "Sua data de nascimento foi revelada",
+      "disclose": "Sua data de nascimento será revelada.",
+      "disclose_past": "Sua data de nascimento foi revelada",
+      "range": "Apenas <bold>Sim</bold> será revelado, mas não sua data de nascimento real.",
+      "range_past": "Apenas <bold>Sim</bold> foi revelado, mas não sua data de nascimento real",
+      "gt": "Apenas <bold>Sim</bold> será revelado, mas não sua data de nascimento real.",
+      "gt_past": "Apenas <bold>Sim</bold> foi revelado, mas não sua data de nascimento real",
+      "gte": "Apenas <bold>Sim</bold> será revelado, mas não sua data de nascimento real.",
+      "gte_past": "Apenas <bold>Sim</bold> foi revelado, mas não sua data de nascimento real",
+      "lt": "Apenas <bold>Sim</bold> será revelado, mas não sua data de nascimento real.",
+      "lt_past": "Apenas <bold>Sim</bold> foi revelado, mas não sua data de nascimento real",
+      "lte": "Apenas <bold>Sim</bold> será revelado, mas não sua data de nascimento real.",
+      "lte_past": "Apenas <bold>Sim</bold> foi revelado, mas não sua data de nascimento real"
+    },
+    "gender": {
+      "eq": "Seu gênero será revelado.",
+      "eq_past": "Seu gênero foi revelado",
+      "disclose": "Seu gênero será revelado.",
+      "disclose_past": "Seu gênero foi revelado"
+    },
+    "issuing_country": {
+      "eq": "O país que emitiu seu documento será revelado.",
+      "eq_past": "O país que emitiu seu documento foi revelado",
+      "disclose": "O país que emitiu seu documento será revelado.",
+      "disclose_past": "O país que emitiu seu documento foi revelado",
+      "in": "Apenas <bold>Sim</bold> será revelado, mas não seu país emissor real.\n\n<bold>Lista de países:</bold>\n{{countries}}",
+      "in_past": "Apenas <bold>Sim</bold> foi revelado, mas não seu país emissor real\n\n<bold>Lista de países:</bold>\n{{countries}}",
+      "out": "Apenas <bold>Sim</bold> será revelado, mas não seu país emissor real.\n\n<bold>Lista de países:</bold>\n{{countries}}",
+      "out_past": "Apenas <bold>Sim</bold> foi revelado, mas não seu país emissor real\n\n<bold>Lista de países:</bold>\n{{countries}}"
+    },
+    "nationality": {
+      "eq": "Sua nacionalidade será revelada.",
+      "eq_past": "Sua nacionalidade foi revelada",
+      "disclose": "Sua nacionalidade será revelada.",
+      "disclose_past": "Sua nacionalidade foi revelada",
+      "in": "Apenas <bold>Sim</bold> será revelado, mas não sua nacionalidade real.\n\n<bold>Lista de países:</bold>\n{{countries}}",
+      "in_past": "Apenas <bold>Sim</bold> foi revelado, mas não sua nacionalidade real\n\n<bold>Lista de países:</bold>\n{{countries}}",
+      "out": "Apenas <bold>Sim</bold> será revelado, mas não sua nacionalidade real.\n\n<bold>Lista de países:</bold>\n{{countries}}",
+      "out_past": "Apenas <bold>Sim</bold> foi revelado, mas não sua nacionalidade real\n\n<bold>Lista de países:</bold>\n{{countries}}"
+    },
+    "expiry_date": {
+      "eq": "A data de validade do seu documento será revelada.",
+      "eq_past": "A data de validade do seu documento foi revelada",
+      "disclose": "A data de validade do seu documento será revelada.",
+      "disclose_past": "A data de validade do seu documento foi revelada",
+      "range": "Apenas <bold>Sim</bold> será revelado, mas não sua data de validade real.",
+      "range_past": "Apenas <bold>Sim</bold> foi revelado, mas não sua data de validade real",
+      "gt": "Apenas <bold>Sim</bold> será revelado, mas não sua data de validade real.",
+      "gt_past": "Apenas <bold>Sim</bold> foi revelado, mas não sua data de validade real",
+      "gte": "Apenas <bold>Sim</bold> será revelado, mas não sua data de validade real.",
+      "gte_past": "Apenas <bold>Sim</bold> foi revelado, mas não sua data de validade real",
+      "lt": "Apenas <bold>Sim</bold> será revelado, mas não sua data de validade real.",
+      "lt_past": "Apenas <bold>Sim</bold> foi revelado, mas não sua data de validade real",
+      "lte": "Apenas <bold>Sim</bold> será revelado, mas não sua data de validade real.",
+      "lte_past": "Apenas <bold>Sim</bold> foi revelado, mas não sua data de validade real"
+    },
+    "age": {
+      "eq": "Sua idade exata será revelada.",
+      "eq_past": "Sua idade exata foi revelada",
+      "range": "Apenas <bold>Sim</bold> será revelado, mas não sua idade real.",
+      "range_past": "Apenas <bold>Sim</bold> foi revelado, mas não sua idade real",
+      "gt": "Apenas <bold>Sim</bold> será revelado, mas não sua idade real.",
+      "gt_past": "Apenas <bold>Sim</bold> foi revelado, mas não sua idade real",
+      "gte": "Apenas <bold>Sim</bold> será revelado, mas não sua idade real.",
+      "gte_past": "Apenas <bold>Sim</bold> foi revelado, mas não sua idade real",
+      "lt": "Apenas <bold>Sim</bold> será revelado, mas não sua idade real.",
+      "lt_past": "Apenas <bold>Sim</bold> foi revelado, mas não sua idade real",
+      "lte": "Apenas <bold>Sim</bold> será revelado, mas não sua idade real.",
+      "lte_past": "Apenas <bold>Sim</bold> foi revelado, mas não sua idade real",
+      "disclose": "Sua idade exata será revelada.",
+      "disclose_past": "Sua idade exata foi revelada"
+    },
+    "document_number": {
+      "eq": "O número do seu documento será revelado.",
+      "eq_past": "O número do seu documento foi revelado",
+      "disclose": "O número do seu documento será revelado.",
+      "disclose_past": "O número do seu documento foi revelado"
+    },
+    "document_type": {
+      "eq": "O tipo do seu documento é {{type}}?",
+      "eq_past": "O tipo do seu documento foi revelado (Passaporte, Documento de Identidade ou Autorização de Residência).",
+      "disclose": "O tipo do seu documento será revelado (Passaporte, Documento de Identidade ou Autorização de Residência).",
+      "disclose_past": "O tipo do seu documento foi revelado (Passaporte, Documento de Identidade ou Autorização de Residência)."
+    },
+    "fullname": {
+      "eq": "Seu nome completo oficial será revelado.",
+      "eq_past": "Seu nome completo oficial foi revelado",
+      "disclose": "Seu nome completo oficial será revelado.",
+      "disclose_past": "Seu nome completo oficial foi revelado"
+    },
+    "firstname": {
+      "eq": "Seu primeiro nome será revelado.",
+      "eq_past": "Seu primeiro nome foi revelado",
+      "disclose": "Apenas seu primeiro nome será revelado (não inclui nome do meio ou outros nomes).",
+      "disclose_past": "Apenas seu primeiro nome foi revelado (não inclui nome do meio ou outros nomes)"
+    },
+    "lastname": {
+      "eq": "Seu sobrenome será revelado.",
+      "eq_past": "Seu sobrenome foi revelado",
+      "disclose": "Apenas seu sobrenome será revelado (não inclui primeiro nome ou nome do meio).",
+      "disclose_past": "Apenas seu sobrenome foi revelado (não inclui primeiro nome ou nome do meio)"
+    },
+    "bind": {
+      "user_address": "O endereço da sua carteira será vinculado a esta prova.",
+      "user_address_past": "O endereço da sua carteira foi vinculado a esta prova.",
+      "chain": "A verificação será vinculada a esta blockchain.",
+      "chain_past": "A verificação foi vinculada a esta blockchain.",
+      "custom_data": "A verificação incluirá os seguintes dados: {{data}}.",
+      "custom_data_past": "A verificação incluiu os seguintes dados: {{data}}."
+    },
+    "sanctions": {
+      "bool": "Apenas <bold>Sim</bold> será revelado, nenhum dado pessoal ou de correspondência de lista é compartilhado.",
+      "bool_past": "Apenas <bold>Sim</bold> foi revelado, nenhum dado pessoal ou de correspondência de lista foi compartilhado.",
+      "all": "Apenas <bold>Sim</bold> será revelado, nenhum dado pessoal ou de correspondência de lista é compartilhado.\n\n<bold>Verificando de forma privada</bold> contra todas as listas de sanções disponíveis via API OpenSanctions, que cobre listas de sanções dos EUA, UE, Reino Unido, Suíça e outros",
+      "all_past": "Apenas <bold>Sim</bold> foi revelado, nenhum dado pessoal ou de correspondência de lista foi compartilhado.\n\n<bold>Verificado de forma privada</bold> contra todas as listas de sanções disponíveis via API OpenSanctions, que cobre listas de sanções dos EUA, UE, Reino Unido, Suíça e outros",
+      "countries": "Apenas <bold>Sim</bold> será revelado, nenhum dado pessoal ou de correspondência de lista é compartilhado.\n\n<bold>Verificando de forma privada</bold> contra listas de sanções dos seguintes países: {{countries}}",
+      "countries_past": "Apenas <bold>Sim</bold> foi revelado, nenhum dado pessoal ou de correspondência de lista foi compartilhado.\n\n<bold>Verificado de forma privada</bold> contra listas de sanções dos seguintes países: {{countries}}"
+    },
+    "facematch": "O FaceMatch Privado realiza uma verificação de vivacidade e compara seu rosto com a foto do seu documento.",
+    "facematch_past": "O FaceMatch Privado realizou uma verificação de vivacidade e comparou seu rosto com a foto do seu documento."
+  },
+  "eventPage": {
+    "title": {
+      "mrz": "Escaneamento bem-sucedido",
+      "nfc": "Escaneamento do chip bem-sucedido",
+      "nfcFailed": "Escaneamento do chip falhou",
+      "notSupported": "Documento não suportado",
+      "expiredId": "Seu documento expirou",
+      "somethingWrong": "Algo deu errado",
+      "lostConnection": "Conexão com a internet perdida",
+      "deleteId": "O documento selecionado foi excluído com sucesso",
+      "deleteWrong": "Ops! Algo deu errado, tente novamente mais tarde",
+      "verified": "Você está verificado!",
+      "notSuccessful": "Verificação não bem-sucedida",
+      "chipNotDetected": "Chip não detectável",
+      "docNotSupported": "Documento não suportado"
+    },
+    "description": {
+      "success": "Lemos os detalhes do seu documento corretamente. Você pode continuar com a verificação.",
+      "mrz": "Seu documento foi escaneado com sucesso e está pronto para ser usado na verificação.",
+      "nfc": "O chip do seu documento foi escaneado com sucesso.",
+      "nfcFailed": "Detectamos o chip no seu documento, mas não conseguimos completar o escaneamento. O chip pode estar danificado ou não respondendo corretamente.",
+      "notSupported": "Este documento ainda não é suportado devido à falta de informações da autoridade emissora. Salvamos no app mesmo assim, fique de olho nas atualizações do app.",
+      "notSupportedIntent": "Não é possível gerar uma prova de verificação porque o certificado da autoridade emissora não é suportado atualmente.",
+      "expiredId": "Seu documento expirou, então você não pode gerar uma verificação. Por favor, escaneie um documento atualizado para continuar com o processo de verificação.",
+      "somethingWrong": "O app não pôde continuar porque a conexão foi interrompida.",
+      "lostConnection": "Sua conexão com a internet foi interrompida.",
+      "deleteId": "O documento selecionado foi excluído com sucesso",
+      "deleteWrong": "Ops! Algo deu errado, tente novamente mais tarde",
+      "verified": "Suas informações atenderam a todos os critérios exigidos. A verificação foi bem-sucedida.",
+      "notSuccessful": "Você não atendeu aos requisitos de verificação, então não poderá prosseguir. Isso pode limitar o acesso a determinados conteúdos, recursos ou serviços.",
+      "chipNotDetected": "Não conseguimos detectar o chip no seu documento. Ele pode estar danificado ou ilegível.",
+      "docNotSupported": "Este documento não contém chip NFC, então não pode ser usado com este app."
+    },
+    "secondaryText": {
+      "somethingWrong": "Por favor, <bold>atualize o app</bold> para continuar.",
+      "lostConnection": "Por favor, <bold>verifique sua conexão</bold> e tente novamente.",
+      "useAnotherID": "Por favor, use outro documento se disponível",
+      "contactServiceProvider": "Se você acredita que isso é um erro, entre em contato com o suporte do provedor de serviço."
+    },
+    "actions": {
+      "returnToHome": "Voltar para a home",
+      "scanAnother": "Escanear outro documento",
+      "goBack": "Voltar",
+      "tryAgain": "Tentar novamente",
+      "contactSupport": "Contatar suporte"
+    }
+  },
+  "WhyScanId": {
+    "title": "Porque escanear seu documento?",
+    "description": "Escanear seu documento permite que o ZKPassport confirme que ele é genuíno, para que você possa provar fatos sobre si mesmo sem nunca expor dados pessoais.",
+    "subtitle": "Veja como funciona:",
+    "steps": {
+      "1": {
+        "text": "Os dados do seu documento ficam criptografados no seu dispositivo"
+      },
+      "2": {
+        "text": "Você usa Face ID/Touch ID para protegê-los"
+      },
+      "3": {
+        "text": "Você pode provar fatos sobre si mesmo (como ter mais de 18 anos), sem mostrar os detalhes do seu documento"
+      }
+    },
+    "infoFrame": {
+      "text": "Você só precisa fazer isso uma vez <bold>e seus dados permanecerão seguros e privados.</bold>"
+    }
+  },
+  "facematch": {
+    "title": "Mantenha seu rosto no enquadramento",
+    "titleNoFaceDetected": "Posicione seu rosto no enquadramento",
+    "nofaceDetected": "Primeiro, posicione seu rosto na câmera. Depois, mova sua cabeça em círculo para mostrar todos os ângulos do seu rosto.",
+    "instruction_center": "Olhe diretamente para a câmera",
+    "hold_still": "Fique parado",
+    "look_left": "Mova sua cabeça lentamente <bold>para a esquerda</bold>",
+    "look_right": "Mova sua cabeça lentamente <bold>para a direita</bold>",
+    "look_up": "Mova sua cabeça lentamente <bold>para cima</bold>",
+    "look_down": "Mova sua cabeça lentamente <bold>para baixo</bold>",
+    "look_less_left": "Mova menos para a esquerda",
+    "look_less_right": "Mova menos para a direita",
+    "look_less_up": "Mova menos para cima",
+    "look_less_down": "Mova menos para baixo",
+    "look_further_left": "Mova mais para a esquerda",
+    "look_further_right": "Mova mais para a direita",
+    "look_further_up": "Mova mais para cima",
+    "look_further_down": "Mova mais para baixo",
+    "move_closer": "Aproximar-se",
+    "move_further": "Afastar-se",
+    "permissionText": "Precisamos de permissão da câmera para verificar seu rosto",
+    "grantPermission": "Conceder Permissão",
+    "faceMatchText": "Verificação <bold>FaceMatch Privado</bold>",
+    "successfullyCompleted": "<bold>FaceMatch Privado</bold> concluído com sucesso",
+    "facialDataSecure": "Seus dados faciais permanecem seguros no seu dispositivo.",
+    "generatingAttestation": "Processando...",
+    "debug": {
+      "leftEye": "Olho E",
+      "rightEye": "Olho D",
+      "nose": "Nariz",
+      "leftMouth": "Boca E",
+      "rightMouth": "Boca D",
+      "modelInput": "Entrada do Modelo",
+      "embedding": "Embedding:"
+    },
+    "timeout": {
+      "title": "FaceMatch Privado expirou",
+      "description": "Não conseguimos confirmar que seu rosto corresponde ao documento usado nesta verificação.\n\nPor favor, tente novamente e <bold>certifique-se de que a pessoa escaneando é a mesma mostrada no documento</bold>."
+    }
+  },
+  "history": {
+    "title": "Histórico de Verificações",
+    "viewDetails": "Ver detalhes",
+    "idSelected": "Documento Selecionado",
+    "unknown": "Desconhecido",
+    "delete": "Excluir verificação",
+    "informationShared": "Informações Compartilhadas",
+    "noVerificationTitle": "Nenhuma verificação ainda",
+    "noVerificationDescription": "Da próxima vez que você fizer uma verificação, ela aparecerá aqui no seu histórico.",
+    "loading": "Carregando...",
+    "today": "Hoje",
+    "yesterday": "Ontem"
+  },
+  "modals": {
+    "checkPassport": {
+      "title": {
+        "passport": "Verifique seu Passaporte",
+        "idCard": "Verifique seu Documento de Identidade",
+        "residencePermit": "Verifique sua Autorização de Residência"
+      },
+      "description": {
+        "passport": "Certifique-se de que seu Passaporte tem o <bold>símbolo NFC</bold>, geralmente <bold>na capa frontal</bold>.",
+        "idCard": "Certifique-se de que seu Documento de Identidade tem o <bold>símbolo NFC</bold>, geralmente na <bold>frente ou no verso do cartão</bold>.",
+        "residencePermit": "Certifique-se de que sua Autorização de Residência tem o <bold>símbolo NFC</bold>, geralmente na <bold>frente ou no verso do cartão</bold>."
+      },
+      "yesIHaveIt": "Sim, eu tenho",
+      "noIDontHaveIt": "Não, eu não tenho"
+    },
+    "deleteID": {
+      "title": "Excluir Documento?",
+      "description": "Excluir este documento irá removê-lo do seu dispositivo junto com todas as verificações associadas. Esta ação não pode ser desfeita.",
+      "deleteButton": "Excluir Documento",
+      "cancelButton": "Cancelar",
+      "successDescription": "O documento selecionado foi excluído com sucesso.",
+      "errorDescription": "Ops! Algo deu errado, tente novamente mais tarde"
+    },
+    "historyFilter": {
+      "title": "Filtros",
+      "resetAll": "Limpar Todos",
+      "selectedID": "Documento Selecionado",
+      "noIDsFound": "Nenhum documento encontrado",
+      "cancel": "Cancelar",
+      "apply": "Aplicar",
+      "apply_zero": "Aplicar",
+      "apply_other": "Aplicar ({{count}})"
+    },
+    "incompatibleSdk": {
+      "title": "Versão do SDK Incompatível",
+      "description": "O serviço ao qual você está tentando se conectar está usando a versão {{sdkVersion}} do SDK, enquanto este app suporta versões de {{minVersion}} a {{maxVersion}}. O serviço precisa atualizar para uma versão suportada.",
+      "disclaimer": "Você pode entrar em contato com a equipe de suporte do serviço e pedir que atualizem a integração"
+    },
+    "certificateMissing": {
+      "title": "Certificado Ausente",
+      "description": "Nosso registro de certificados atualmente não suporta este documento. Você pode nos ajudar a adicionar suporte enviando um relatório. Nenhum dado sensível será enviado.",
+      "sendReport": "Enviar Relatório",
+      "notNow": "Agora não"
+    },
+    "unsupportedId": {
+      "title": "Documento Não Suportado",
+      "description": "Infelizmente seu documento usa um algoritmo de assinatura que ainda não suportamos."
+    },
+    "errorReport": {
+      "title": "Relatório de Erro Enviado",
+      "description": "Obrigado por nos ajudar a melhorar o app. Usaremos estas informações para corrigir o problema.",
+      "dismiss": "Dispensar"
+    }
+  },
+  "passportView": {
+    "yourIDs": "Seus Documentos",
+    "addID": "Adicionar",
+    "addIDPlus": "Adicionar +",
+    "hideDetails": "Ocultar detalhes",
+    "showDetails": "Mostrar detalhes",
+    "options": "Opções",
+    "privacyWarning": {
+      "title": "Aviso de Privacidade",
+      "description": "Uma captura de tela foi detectada. Se alguém pediu para você enviar uma foto dos detalhes do seu documento, não faça isso.",
+      "understood": "Entendido"
+    },
+    "documentType": {
+      "passport": "Passaporte",
+      "idCard": "Documento de Identidade",
+      "residencePermit": "Autorização de Residência"
+    },
+    "idIsGenuine": "Documento é Genuíno",
+    "name": "Nome",
+    "nationality": "Nacionalidade",
+    "dateOfBirth": "Data de Nascimento",
+    "gender": "Gênero",
+    "male": "Masculino",
+    "female": "Feminino",
+    "passportNumber": "Número do Documento",
+    "passportExpiry": "Data de Validade",
+    "unsupportedMessage": "Este documento ainda não pode ser usado para verificação porque o certificado do país não está disponível.",
+    "expiredMessage": "Este documento está expirado e não pode ser usado para verificação."
+  },
+  "scanning": {
+    "back": "Voltar",
+    "chooseIDType": {
+      "title": "Escolha um tipo de documento",
+      "passport": {
+        "title": "Passaporte",
+        "description": "Caderneta emitida pelo governo para prova de identidade internacional"
+      },
+      "idCard": {
+        "title": "Documento de Identidade",
+        "description": "Cartão usado para verificação de identidade nacional ou regiões específicas"
+      },
+      "residencePermit": {
+        "title": "Autorização de Residência",
+        "description": "Documento/cartão que verifica a residência de um estrangeiro"
+      }
+    },
+    "prepareID": {
+      "title": "Escaneie o chip",
+      "passport": "Abra seu <bold>passaporte e deixe-o aberto</bold> sobre uma superfície. Quando estiver pronto, pressione <em>[Iniciar escaneamento]</em> e mova lentamente seu celular sobre o passaporte como mostrado acima.",
+      "idCard": "Coloque seu <bold>Documento de Identidade com a face para cima</bold> em uma superfície plana. Quando estiver pronto, pressione <em>[Iniciar escaneamento]</em> e mova lentamente seu celular sobre o Documento de Identidade como mostrado acima.",
+      "residencePermit": "Coloque sua <bold>Autorização de Residência com a face para cima</bold> em uma superfície plana. Quando estiver pronto, pressione <em>[Iniciar escaneamento]</em> e mova lentamente seu celular sobre ela como mostrado acima.",
+      "startScan": "Iniciar escaneamento"
+    },
+    "getReadyToScan": {
+      "title": "Prepare-se para escanear",
+      "passport": {
+        "name": "Passaporte",
+        "description": "Abra seu Passaporte na página da foto e coloque-o com a face para cima em uma superfície plana."
+      },
+      "idCard": {
+        "name": "Documento de Identidade",
+        "description": "Coloque o verso do seu Documento de Identidade em uma superfície plana com boa iluminação."
+      },
+      "residencePermit": {
+        "name": "Autorização de Residência",
+        "description": "Coloque o verso da sua Autorização de Residência em uma superfície plana com boa iluminação."
+      },
+      "steps": {
+        "nfc": " com NFC",
+        "scan": "Escanear com câmera"
+      },
+      "flipID": "Vire o documento para o verso",
+      "startScan": "Iniciar escaneamento",
+      "enterManually": "Inserir dados manualmente"
+    },
+    "manualMRZEntry": "Entrada Manual de código",
+    "areYourDetailsCorrect": "Seus dados estão corretos?",
+    "editMRZSubtitle": "Verifique se seus dados estão corretos. Para editá-los, basta clicar no campo.",
+    "documentNumber": "Número do Documento",
+    "dateOfBirth": "Data de Nascimento",
+    "dateOfExpiry": "Data de Validade",
+    "confirmDetails": "Confirmar Dados",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "errors": {
+      "fieldRequired": "Este campo é obrigatório",
+      "documentNumberLength": "O número do documento deve ter de 9 a 12 caracteres",
+      "alphanumericOnly": "Apenas letras e números são permitidos",
+      "numbersOnly": "Apenas números são permitidos",
+      "dobFuture": "A data de nascimento não pode ser no futuro",
+      "expiryPast": "A data de validade deve ser no futuro"
+    },
+    "nfcRetry": {
+      "attempt1": {
+        "title": "Escaneamento Incompleto",
+        "description": "Ainda não obtivemos todos os detalhes. Mantenha seu celular firme após a vibração para finalizar o escaneamento."
+      },
+      "attempt2": {
+        "title": "Ainda não foi possível completar o escaneamento",
+        "description": "<bold>Tente remover a capinha do celular</bold> e mantenha o celular firme quando sentir uma vibração."
+      },
+      "attempt3": {
+        "title": "Ainda não foi possível completar o escaneamento",
+        "description": "Certifique-se de que seu passaporte é válido e o chip NFC não está danificado."
+      }
+    },
+    "nfcTimeout": {
+      "attempt1": {
+        "title": "Não foi possível detectar o chip",
+        "description": "<bold>Tente remover a capinha do celular</bold> e pare de mover o celular quando sentir uma vibração."
+      },
+      "attempt2": {
+        "title": "Ainda não foi possível detectar o chip",
+        "description": "Certifique-se de que seu passaporte é válido e o chip NFC não está danificado."
+      },
+      "attempt3": {
+        "title": "Não foi possível detectar o chip",
+        "description": "Certifique-se de que seu passaporte tem o símbolo NFC."
+      }
+    },
+    "modals": {
+      "duplicate": {
+        "title": "Documento já escaneado",
+        "description": "Este documento já está vinculado à sua conta. Para continuar, escaneie um documento válido diferente ou use o que já está vinculado.",
+        "chooseAnother": "Escolher outro documento"
+      },
+      "mrzTimeout": {
+        "title": "Código não detectado",
+        "description": "Certifique-se de que seu documento tem o código e que ele está totalmente visível.",
+        "enterManually": "Inserir manualmente"
+      },
+      "nfcDisabled": {
+        "title": "Ative o NFC para continuar",
+        "description": "Para escanear o chip dentro do seu documento, você precisa ativar o NFC nas configurações do dispositivo.",
+        "disclaimer": "Clique no botão abaixo ou vá em Configurações > Conexões > NFC e ative, depois volte ao app.",
+        "enableNFC": "Ativar NFC"
+      },
+      "nfcReady": {
+        "title": "Você está pronto para continuar!",
+        "description": "Coloque seu celular sobre o documento para iniciar o escaneamento.",
+        "startScan": "Iniciar escaneamento"
+      },
+      "mrzScanFailed": {
+        "title": "Escaneamento do código Falhou",
+        "description": "Houve um problema ao ler os dados do seu documento.",
+        "sendReport": "Enviar Relatório",
+        "enterManually": "Inserir Manualmente"
+      },
+      "nfcSystemFailure": {
+        "title": "NFC não está funcionando no seu dispositivo",
+        "description": "O leitor NFC do seu celular parou de responder, então o app não pode continuar com o escaneamento.\n\nSe o problema persistir, <bold>reinicie seu dispositivo e tente novamente.</bold>"
+      },
+      "wifiInterference": {
+        "title": "Conexão instável",
+        "description": "Estamos tendo problemas para manter uma conexão estável com o chip do seu documento. Isso às vezes pode ser causado por interferência do WiFi.\n\n<bold>Tente desligar o WiFi</bold> nas configurações do dispositivo e escaneie novamente."
+      }
+    },
+    "tryAgain": "Tentar novamente",
+    "howToCheck": "Como verificar o símbolo NFC?",
+    "attemptOf": "Tentativa {{attempt}} de {{max}}"
+  },
+  "qrScanner": {
+    "lightOn": "Ligar luz",
+    "lightOff": "Desligar luz"
+  },
+  "position_qr_code": "Posicione o código QR dentro do enquadramento",
+  "qr_scan_success": "Código QR escaneado com sucesso",
+  "invalid_qr_code": "Formato de código QR inválido",
+  "requesting_camera_permission": "Solicitando permissão da câmera...",
+  "camera_permission_denied": "O acesso à câmera é necessário para escanear códigos QR. Por favor, ative-o nas configurações do seu dispositivo para continuar.",
+  "settings": {
+    "settings": {
+      "back": "Voltar",
+      "title": "Configurações"
+    },
+    "developerOptions": {
+      "back": "Voltar",
+      "title": "Opções de Desenvolvedor",
+      "enableDevMode": "Ativar Modo Desenvolvedor",
+      "enableDevModeDescription": "Isso permite pular a etapa de escaneamento do passaporte e utilizar dados simulados.",
+      "loading": "Carregando passaportes simulados...",
+      "deleting": "Excluindo passaportes simulados..."
+    },
+    "whatsNext": {
+      "back": "Voltar",
+      "title": "O que vem a seguir?",
+      "tryDemo": "Testar demo",
+      "steps": {
+        "1": {
+          "title": "Inicie uma verificação",
+          "description": "Quando um site pedir uma prova (ex: idade, nacionalidade, nome), simplesmente escaneie o código QR ou clique no botão para começar."
+        },
+        "2": {
+          "title": "Revise e aprove",
+          "description": "Veja exatamente o que o site está pedindo, depois confirme para compartilhar apenas o necessário."
+        },
+        "3": {
+          "title": "Teste a demo:",
+          "description": "Se você quiser testar agora, confira nossa demo."
+        }
+      }
+    },
+    "security": {
+      "back": "Voltar",
+      "title": "Segurança",
+      "requireAuth": "Exigir autenticação",
+      "requireAuthDescription": "<bold>Ao verificar</bold> você precisará se autenticar com sua senha, Face ID ou impressão digital antes de verificar.",
+      "loading": "Carregando..."
+    },
+    "technicalInfo": {
+      "back": "Voltar",
+      "faceMatchDebug": "Debug do Facematch",
+      "faceMatchDebugDescription": "Ativar modo debug do facematch",
+      "copyPhotoDG2": "Copiar Foto (DG2)",
+      "submitAnonymousMetadata": "Enviar metadados anônimos",
+      "submitMetadataTitle": "Enviar metadados anônimos",
+      "submitMetadataDescription": "Isso enviará informações técnicas anônimas sobre seu documento para ajudar a melhorar o serviço. Nenhuma informação pessoal será incluída.",
+      "submitMetadataButton": "Enviar Metadados Anônimos",
+      "cancel": "Cancelar"
+    },
+    "debugInfo": {
+      "title": "Informações de Debug",
+      "passportSection": "Informações do Documento",
+      "technicalSection": "Detalhes Técnicos",
+      "passportTechnicalSection": "Informações Técnicas do Passaporte",
+      "idTechnicalSection": "Informações Técnicas do Documento",
+      "systemSection": "Informações do Sistema",
+      "cscSection": "Certificado de Assinatura do País",
+      "actions": "Ações",
+      "copied": "Copiado",
+      "copiedToClipboard": "Dados copiados para a área de transferência",
+      "ldsVersion": "Versão LDS",
+      "cmsVersion": "Versão CMS",
+      "dscSigAlg": "Alg Assin DSC",
+      "sodSigAlg": "Alg Assin SOD",
+      "sodRsaExponent": "Expoente RSA SOD",
+      "sodRsaModulus": "Módulo RSA SOD",
+      "sodCurve": "Curva SOD",
+      "eContentHashAlg": "Alg Hash eContent",
+      "signedAttrHashAlg": "Alg Hash SignedAttr",
+      "eContentLen": "Tam eContent",
+      "signedAttrLen": "Tam SignedAttr",
+      "dscTbsCertificateLen": "Tam certificado TBS DSC",
+      "systemDate": "Data do Sistema",
+      "dataGroups": "Grupos de Dados",
+      "phone": "Celular",
+      "os": "SO",
+      "app": "App",
+      "ram": "RAM",
+      "copyDG1": "Copiar DG1",
+      "copySOD": "Copiar SOD",
+      "copyDG2Image": "Copiar DG2 (Imagem)",
+      "copyDG2Base64": "Copiar DG2 (Base64)",
+      "copySubjectKeyId": "Copiar ID da Chave do Titular",
+      "imageCopied": "A imagem foi copiada para sua área de transferência",
+      "somethingWrongWithImage": "Algo está errado com o formato da imagem. A string base64 bruta foi copiada em vez disso.",
+      "submitting": "Enviando...",
+      "submitAnonymousMetadata": "Enviar Metadados Anônimos",
+      "success": "Seus metadados foram enviados com sucesso. Obrigado por nos ajudar a melhorar o app!",
+      "error": "Houve um erro ao enviar seus metadados. Por favor, tente novamente mais tarde.",
+      "loadingCsc": "Carregando CSC...",
+      "noCscFound": "Nenhum CSC encontrado para este passaporte",
+      "cscCountry": "País",
+      "cscSignatureAlgorithm": "Algoritmo de Assinatura",
+      "cscHashAlgorithm": "Algoritmo de Hash",
+      "cscKeyType": "Tipo de Chave Pública",
+      "cscKeySize": "Tamanho da Chave",
+      "cscExponent": "Expoente",
+      "cscCurve": "Curva",
+      "cscValidFrom": "Válido De",
+      "cscValidTo": "Válido Até",
+      "cscSubjectKey": "ID da Chave do Titular",
+      "cscAuthKey": "ID da Chave da Autoridade",
+      "includeSignerInfo": "Incluir info do assinante",
+      "moreSensitive": "Mais sensível",
+      "confirmMetadata": "Enviar Metadados Anônimos",
+      "submit": "Enviar",
+      "signerInfoWarning": "Informações do assinante contêm mais detalhes técnicos sobre a assinatura do seu documento.",
+      "metadataDescription": "Isso enviará informações técnicas anônimas sobre seu documento para ajudar a melhorar o serviço. Nenhuma informação pessoal será incluída.",
+      "helpImprove": "Ajude-nos a melhorar o ZKPassport",
+      "errorReporting": "Relatório de Eventos",
+      "errorReportingDescription": "Enviar relatórios de sucesso e falha para ajudar a melhorar o app",
+      "clearFaceMatchCache": "Limpar Cache do FaceMatch",
+      "faceMatchCacheCleared": "Cache do FaceMatch limpo",
+      "errorClearingFaceMatchCache": "Erro ao limpar cache do FaceMatch",
+      "copyDeviceUuid": "Copiar ID do Dispositivo",
+      "deviceUuidNotFound": "ID do dispositivo não encontrado"
+    },
+    "options": {
+      "back": "Voltar",
+      "title": "Opções",
+      "deleteID": "Excluir Documento",
+      "technicalInfo": "Informações técnicas do documento",
+      "help": "O que posso fazer a seguir?",
+      "clearCache": "Limpar cache",
+      "eventReporting": "Relatório de Eventos",
+      "eventReportingDescription": "Ajude-nos a melhorar o app compartilhando relatórios anônimos de falhas. Esses relatórios nunca incluem sua identidade ou dados pessoais, apenas metadados técnicos.",
+      "clearCacheTitle": "Limpar cache",
+      "clearCacheDescription": "Limpar o cache ajudará a liberar espaço de armazenamento e corrigir problemas causados por arquivos em cache desatualizados.",
+      "clearCacheButton": "Limpar cache",
+      "clearCacheSuccessDescription": "O cache foi limpo com sucesso.",
+      "clearCacheErrorDescription": "Ops! Algo deu errado, tente novamente mais tarde",
+      "notNow": "Agora não",
+      "developerOptions": "Opções de Desenvolvedor",
+      "security": "Segurança",
+      "aboutZKPassport": "Sobre o ZKPassport",
+      "version": "Versão do App"
+    }
+  },
+  "permissions": {
+    "cameraTitle": "Permissão de Câmera Necessária",
+    "cameraMessage": "Precisamos de acesso à sua câmera para escanear códigos QR e do seu documento. Por favor, ative o acesso à câmera nas configurações do seu dispositivo.",
+    "biometricTitle": "Autenticação Biométrica",
+    "biometricNotAvailable": "A autenticação biométrica não está disponível neste dispositivo.",
+    "biometricNotEnrolled": "Por favor, configure a autenticação biométrica (como Face ID ou Touch ID) nas configurações do seu dispositivo para proteger os dados do seu documento.",
+    "biometricPrompt": "Autentique para continuar",
+    "biometricFallback": "Usar senha do dispositivo",
+    "biometricWarning": "Seu dispositivo suporta autenticação biométrica, mas você não a ativou. Você pode continuar usando o app sem autenticação biométrica, mas recomendamos que você a ative para maior segurança."
+  },
+  "screenshot": {
+    "privacyWarningTitle": "Aviso de Privacidade",
+    "privacyWarningMessage": "Uma captura de tela foi detectada. Se alguém pediu para você enviar uma foto dos detalhes do seu documento, não faça isso.",
+    "understood": "Entendido"
+  },
+  "errors": {
+    "proofGenerationError": "Erro na Geração de Prova",
+    "oldUnsupportedZKRPassport": "Dados de Teste Desatualizados",
+    "oldUnsupportedZKRPassportDescription": "Seus dados de teste estão desatualizados e não são mais suportados. Por favor, recarregue os passaportes simulados.",
+    "cscNotFound": "Certificado Não Encontrado",
+    "unsupportedPassport": "Documento Não Suportado",
+    "cscNotFoundSendReport": "Enviar Relatório",
+    "cscNotFoundDescription": "Nosso registro de certificados atualmente não suporta este documento. Você pode nos ajudar a adicionar suporte enviando um relatório. Nenhum dado sensível será enviado.",
+    "unsupportedPassportDescription": "Infelizmente seu documento usa um algoritmo de assinatura que ainda não suportamos.",
+    "documentNumberRequired": "O número do documento é obrigatório",
+    "dateOfBirthRequired": "A data de nascimento é obrigatória",
+    "invalidDateFormat": "Formato de data inválido",
+    "invalidDate": "Data inválida",
+    "dateOfExpiryRequired": "A data de validade é obrigatória",
+    "facematch": {
+      "appAttestNotSupported": "A atestação do app não é suportada neste dispositivo"
+    }
+  },
+  "errorTitle": "Erro Inesperado",
+  "errorMessage": "Ocorreu um erro inesperado. O app precisa ser reiniciado.",
+  "restart": "Reiniciar",
+  "memoryWarningTitle": "Aviso de Memória Baixa",
+  "memoryWarning": "Seu dispositivo pode não ter memória suficiente para gerar provas. Isso pode fazer o app travar. Deseja continuar mesmo assim?",
+  "error": "Erro"
+}

@@ -1,0 +1,10 @@
+plugins {
+  id 'com.android.asset-pack'
+}
+
+assetPack {
+    packName = "proving_artifacts"
+    dynamicDelivery {
+        deliveryType = "install-time"
+    }
+}

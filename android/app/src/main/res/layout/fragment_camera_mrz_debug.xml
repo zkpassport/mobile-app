@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_decoder_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <!-- CameraX PreviewView replaces Fotoapparat CameraView -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/camera_preview_x"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Guide rectangle for MRZ (invisible anchor)
+         Note: Dimensions are set programmatically in CameraMLKitFragment.kt
+         using screen width fractions for consistent scaling across devices -->
+    <View
+        android:id="@+id/mrz_guide"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintWidth_percent="0.85"
+        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Top overlay - from top of screen to top of mrz_guide -->
+    <View
+        android:id="@+id/overlay_top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#80000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/mrz_guide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Bottom overlay - from bottom of mrz_guide to bottom of screen -->
+    <View
+        android:id="@+id/overlay_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#80000000"
+        app:layout_constraintTop_toBottomOf="@id/mrz_guide"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Left overlay - same height as mrz_guide, from left edge to left of guide -->
+    <View
+        android:id="@+id/overlay_left"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#80000000"
+        app:layout_constraintTop_toTopOf="@id/mrz_guide"
+        app:layout_constraintBottom_toBottomOf="@id/mrz_guide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/mrz_guide" />
+
+    <!-- Right overlay - same height as mrz_guide, from right of guide to right edge -->
+    <View
+        android:id="@+id/overlay_right"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#80000000"
+        app:layout_constraintTop_toTopOf="@id/mrz_guide"
+        app:layout_constraintBottom_toBottomOf="@id/mrz_guide"
+        app:layout_constraintStart_toEndOf="@id/mrz_guide"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Wireframe Container
+         Note: Child dimensions are set programmatically in CameraMLKitFragment.kt
+         using screen width fractions for consistent scaling across devices -->
+    <FrameLayout
+        android:id="@+id/wireframe_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Wireframe Image - dimensions set programmatically based on screen width -->
+        <ImageView
+            android:id="@+id/wireframe_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0dp"
+            android:scaleType="fitCenter" />
+
+        <!-- Scan line overlay - dimensions set programmatically based on screen width -->
+        <ImageView
+            android:id="@+id/mrz_scan_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <!-- Instruction Text Container - bottom margin set programmatically based on screen width -->
+    <LinearLayout
+        android:id="@+id/instruction_text_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Primary instruction text -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/instruction_primary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#F4D8A2"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/instruction_secondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/instruction_supporting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        <!-- Progress Container -->
+        <LinearLayout
+            android:id="@+id/progress_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="invisible">
+
+            <!-- Progress Bar - uses 45% of screen width for consistent scaling -->
+            <FrameLayout
+                android:layout_width="180dp"
+                android:layout_height="6dp">
+
+                <View
+                    android:id="@+id/progress_track"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#333333" />
+
+                <View
+                    android:id="@+id/progress_fill"
+                    android:layout_width="0dp"
+                    android:layout_height="4dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginStart="1dp"
+                    android:background="@drawable/progress_fill_gold_gradient" />
+            </FrameLayout>
+
+            <!-- Status Indicator -->
+            <LinearLayout
+                android:id="@+id/status_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/status_icon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:id="@+id/status_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:textColor="#E7E7E7" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- MRZ instruction label -->
+    <TextView
+        android:id="@+id/mrz_instruction_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/mrz_instruction_initial"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:maxLines="3"
+        android:ellipsize="none"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/torch_warning_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Torch warning label -->
+    <TextView
+        android:id="@+id/torch_warning_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/mrz_torch_warning"
+        android:textColor="#FFB74D"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:maxLines="2"
+        android:ellipsize="none"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/mrz_guide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Default border with semi-transparent background -->
+    <View
+        android:id="@+id/mrz_default_border"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/mrz_guide_default"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@id/mrz_guide"
+        app:layout_constraintEnd_toEndOf="@id/mrz_guide"
+        app:layout_constraintTop_toTopOf="@id/mrz_guide"
+        app:layout_constraintBottom_toBottomOf="@id/mrz_guide" />
+
+    <!-- Corner brackets overlay -->
+    <app.zkpassport.zkpassport.mrzscan.CornerBracketView
+        android:id="@+id/mrz_corner_brackets"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@id/mrz_guide"
+        app:layout_constraintEnd_toEndOf="@id/mrz_guide"
+        app:layout_constraintTop_toTopOf="@id/mrz_guide"
+        app:layout_constraintBottom_toBottomOf="@id/mrz_guide" />
+
+    <!-- MRZ Text Overlay -->
+    <app.zkpassport.zkpassport.mrzscan.MrzTextOverlayView
+        android:id="@+id/mrz_text_overlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@id/mrz_guide"
+        app:layout_constraintEnd_toEndOf="@id/mrz_guide"
+        app:layout_constraintTop_toTopOf="@id/mrz_guide"
+        app:layout_constraintBottom_toBottomOf="@id/mrz_guide" />
+
+    <!-- Success border (green, shown on success) -->
+    <View
+        android:id="@+id/mrz_success_border"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/mrz_guide_success"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@id/mrz_guide"
+        app:layout_constraintEnd_toEndOf="@id/mrz_guide"
+        app:layout_constraintTop_toTopOf="@id/mrz_guide"
+        app:layout_constraintBottom_toBottomOf="@id/mrz_guide" />
+
+    <!-- Cancel button (top left) -->
+    <ImageButton
+        android:id="@+id/cancel_button"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/round_icon_button_background"
+        android:src="@drawable/ic_close"
+        android:tint="#FFFFFF"
+        android:padding="12dp"
+        android:scaleType="centerInside"
+        android:elevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Torch toggle button (top right) -->
+    <ImageButton
+        android:id="@+id/torch_button"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/round_icon_button_background"
+        android:src="@drawable/ic_flash_on"
+        android:padding="12dp"
+        android:scaleType="centerInside"
+        android:elevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- Debug image view card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/debug_image_card"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone"
+        android:alpha="0.9"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#333333">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Processed Image"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:padding="4dp"
+                android:gravity="center"
+                android:background="#555555"/>
+
+            <ImageView
+                android:id="@+id/debug_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="#000000"
+                android:padding="4dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Floating action button to toggle debug view -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/debug_toggle_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@android:drawable/ic_menu_view"
+        app:fabSize="mini"
+        app:backgroundTint="@android:color/holo_orange_dark"
+        app:tint="@android:color/white" />
+
+    <!-- Confidence confirmation question (below guide rectangle) -->
+    <TextView
+        android:id="@+id/confirmation_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/mrz_confirmation_question"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:maxLines="3"
+        android:ellipsize="none"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/mrz_guide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Reassuring message below confirmation question -->
+    <TextView
+        android:id="@+id/confirmation_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/mrz_confirmation_subtitle"
+        android:textColor="#CCCCCC"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:maxLines="2"
+        android:ellipsize="none"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/confirmation_question"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Confirmation buttons container (below subtitle) -->
+    <LinearLayout
+        android:id="@+id/confirmation_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/confirmation_subtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Try Again button -->
+        <Button
+            android:id="@+id/try_again_button"
+            android:layout_width="140dp"
+            android:layout_height="56dp"
+            android:text="@string/mrz_button_try_again"
+            android:textColor="#E6FFFFFF"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.02"
+            android:background="@drawable/try_again_button_background"
+            android:layout_marginEnd="8dp"
+            android:textAllCaps="false"
+            android:elevation="3dp"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="4"
+            android:shadowRadius="6" />
+
+        <!-- Confirm button -->
+        <Button
+            android:id="@+id/confirm_button"
+            android:layout_width="140dp"
+            android:layout_height="56dp"
+            android:text="@string/mrz_button_confirm"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-bold"
+            android:letterSpacing="0.03"
+            android:background="@drawable/confirm_button_background"
+            android:layout_marginStart="8dp"
+            android:textAllCaps="false"
+            android:elevation="5dp"
+            android:shadowColor="#6F66FF"
+            android:shadowDx="0"
+            android:shadowDy="3"
+            android:shadowRadius="6" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

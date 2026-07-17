@@ -1,0 +1,16 @@
+[package]
+name = "dg2crop"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+# crate-type is specified per-target:
+# - staticlib for iOS
+# - cdylib for Android
+crate-type = ["staticlib", "cdylib"]
+
+[dependencies]
+jni = "0.21.1"
+base64 = "0.22"
+image = "0.25"
+jpeg2k = { version = "0.10", features = ["image"] }

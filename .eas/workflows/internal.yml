@@ -1,0 +1,32 @@
+name: Build & Submit (Internal)
+
+jobs:
+  build_android:
+    type: build
+    params:
+      platform: android
+      profile: internal
+
+  build_ios:
+    type: build
+    params:
+      platform: ios
+      profile: internal
+
+  # Android: Submit to Play Store (internal testers)
+  # See: https://docs.expo.dev/eas/workflows/pre-packaged-jobs/#submit
+  submit_android:
+    type: submit
+    needs: [build_android]
+    params:
+      build_id: ${{ needs.build_android.outputs.build_id }}
+      profile: internal
+
+  # iOS: Submit to TestFlight (internal testers)
+  # See: https://docs.expo.dev/eas/workflows/pre-packaged-jobs/#testflight
+  testflight_ios:
+    type: testflight
+    needs: [build_ios]
+    params:
+      build_id: ${{ needs.build_ios.outputs.build_id }}
+      profile: internal
